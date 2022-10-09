@@ -1,0 +1,32 @@
+.about__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.about__img {
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.about__description {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    text-align: left;
+    padding-left: 0 4rem 0 0;
+    margin-bottom: var(--mb-2);
+    animation: pulse 1s;
+}
+
+.button-about {
+    /* margin-left: -15rem; */
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+.text-animate-hover {
+    &:hover {
+        // color: red;
+    }
+}

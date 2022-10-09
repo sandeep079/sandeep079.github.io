@@ -19,8 +19,12 @@
 .nav__toggle {
     color: var(--text-color);
     font-weight: var(--font-medium);
-    text-shadow: .5px .5px #e4ccdf;
-    font-size: 1.2rem;
+}
+
+.nav__logo {
+    color: rgb(138, 137, 137);
+    text-shadow: 2px 2px 4px rgb(237, 227, 247);
+    font-size: 1rem;
 }
 
 .nav__list {
@@ -94,7 +98,7 @@
         bottom: .5rem;
         font-size: 1.5rem;
         cursor: cell;
-        color: var(--text-color);
+        color: var(--title-color);
     }
 
     .nav__close:hover {
