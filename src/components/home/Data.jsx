@@ -11,7 +11,6 @@ const Data = () => {
     const timer = setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 4000)
-
   }, [])
 
   return (
