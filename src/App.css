@@ -16,6 +16,8 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  --light-special-color: rgb(242, 240, 246);
+
 
   /*========== Font and typography ==========*/
   /* --title-font: 'Sansita Swashed', cursive; */
