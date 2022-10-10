@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     color: var(--text-color);
     font-weight: var(--font-medium);
     transition: .3s;
@@ -119,7 +119,7 @@
         right: 1.3rem;
         bottom: .5rem;
         font-size: 1.5rem;
-        cursor: cell;
+        cursor: pointer;
         color: var(--title-color);
     }
 
@@ -129,7 +129,7 @@
 
     .nav__toggle {
         font-size: 1.1rem;
-        cursor: cell;
+        cursor: pointer;
     }
 
     .nav__icon,

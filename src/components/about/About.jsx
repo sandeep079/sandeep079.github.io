@@ -1,4 +1,3 @@
-import React, {useState, useEffect} from 'react';
 import './about.scss';
 import one from "../../assets/1.png";
 import two from "../../assets/2.png";
@@ -7,7 +6,7 @@ import four from "../../assets/4.png";
 import five from "../../assets/5.png";
 import six from "../../assets/6.png";
 import CV from "../../assets/John-Cv.pdf";
-import Info from './Info';
+import React, {useState, useEffect} from 'react';
 import AnimatedLetters from '../animatedLetters/AnimatedLetters';
 
 const About = () => {
@@ -58,8 +57,8 @@ const About = () => {
 
         <div className="about__data">
           <p className="about__description">
-            I am a second-year Computer Engineering Undergrad at Tribhuvan Univeristy, Pulchowk Campus, Nepal. My current involvement on campus includes being the Associate Editor of The Zerone, the annual tech magazine of Pulchowk Campus, and Liaison Coordinator of Pulchowk Girls.<br /> <br />
-            I am curious to explore different domains of tech and aspire to build useful tools and impactful solutions through it. I am also volunteering at Girls in Tech – Nepal in the role of Outreach Coordinator Ambassador to empower and learn from women in tech. When by myself, I like to spark my imagination through painting and reading.<br /><br />
+            I am a third-year Computer Engineering Undergrad at Tribhuvan Univeristy, Pulchowk Campus. I aspire to build useful tools and impactful solutions through technology. <br /> <br />
+            My current involvement on campus includes being the Technical Manager of Pulchowk Girls and Editor of The Zerone, the annual tech magazine of Pulchowk Campus. I have also been volunteering at Girls in Tech-Nepal for the past two years to empower and learn from women in tech. In my free time, I also love reading books and painting.<br /><br />
           
             <a download="" href={CV} className="button button--flex button-about">
               Download Resume

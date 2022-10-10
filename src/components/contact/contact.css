@@ -1,0 +1,265 @@
+.contact__container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 7rem;
+    padding-bottom: 3rem;
+}
+
+.contact {
+    background: linear-gradient(to bottom, #f9f9f9, #8465c6);
+}
+
+.cup__container {
+    position: relative;
+}
+
+.cup {
+    position: relative;
+    bottom: -17rem;
+    width: 210px;
+    height: 180px;
+    background: linear-gradient(to right, #f9f9f9, #d9d9d9);
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+
+.top {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to right, #f9f9f9, #d9d9d9);
+    border-radius: 50%
+}
+
+.circle {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: 50px;
+    background: linear-gradient(to left, #f9f9f9, #d9d9d9);
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.tea {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#c57e65, #e28462);
+    border-radius: 50%;
+}
+
+.handle {
+    position: absolute;
+    right: -45px;
+    top: 7px;
+    width: 100px;
+    height: 120px;
+    border: 20px solid #dcdcdc;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-radius: 50%;
+    transform: rotate(42deg);
+}
+
+.plate {
+    position: absolute;
+    bottom: 0px;
+    left: 108px;
+    transform: translateX(-50%);
+    width: 290px;
+    height: 160px;
+    background: linear-gradient(to right, #f9f9f9, #e7e7e7);
+    border-radius: 50%;
+    box-shadow: 0 35px 35px rgba(0,0,0,0.2);
+}
+
+.plate::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #f9f9f9, #e7e7e7);
+}
+
+.plate::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    background: radial-gradient(rgba(0,0,0,0.2) 25%, transparent, transparent);
+    border-radius: 50%;
+}
+
+.vapour {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    padding: 0 20px;
+}
+
+.vapour span {
+    position: relative;
+    bottom: 50px;
+    display: block;
+    margin: 0 2px 50px;
+    min-width: 5px;
+    height: 120px;
+    background: white;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+    opacity: 0;
+    filter: blur(8px);
+    animation-delay: calc(var(--i) * -0.5s);
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) scaleX(1);
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-150px) scaleX(5);
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(-300px) scaleX(10);
+    }
+}
+
+.contact__content {
+    padding: 28px;
+    background: url(../../assets/contactPage.png);
+}
+
+.contact__form {
+    width: 360px;
+}
+
+.contact__form-div {
+    position: relative;
+    margin-bottom: var(--mb-2);
+    height: 4rem;
+}
+
+.contact__form-input {
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 13px;
+    width: 89%;
+    height: 90%;
+    border: 1px solid var(--text-color);
+    background: none;
+    color: var(--title-color);
+    outline: none;
+    padding: 1.5rem;
+    z-index: 1;
+    border-radius: 15%;
+}
+
+.contact__form-tag {
+    position: absolute;
+    top: 0rem;
+    left: 2.6rem;
+    font-size: var(--small-font-size);
+    padding: 0.25rem;
+    background: #E2DFDD;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    z-index: 10;
+}
+
+.contact__form-area {
+    height: 11rem;
+}
+
+.contact__form-area textarea {
+    resize: none;
+}
+
+.contact-button {
+    margin-top: -8px;
+    border-radius: 15%;
+    background: none;
+    margin-left: 20px;
+    border: 1px solid var(--text-color);
+}
+
+.contact-button:hover {
+    border-bottom: 2px solid var(--special-color);
+    border-right: 2px solid var(--special-color);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .contact__container {
+        column-gap: 5rem;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 900px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 5.5rem;
+    }
+
+    .cup {
+        bottom: -1rem;
+        width: 160px;
+        height: 130px;
+    }
+
+    .handle {
+        right: -30px;
+        width: 70px;
+        height: 90px;
+    }
+    
+    .plate {
+        bottom: -50px;
+        left: 80px;
+        width: 250px;
+        height: 110px;
+    }
+
+  }
+  
+  @media screen and (max-width: 480px) {
+    .contact__content {
+        padding: 28px;
+        background: none;
+    }
+
+    .contact {
+        background: var(--body-color);
+    }
+
+    .contact__form-tag {
+        background: var(--body-color);
+    }
+
+    .contact__form {
+        width: 300px;
+        margin-left: 20px;
+    }
+  }

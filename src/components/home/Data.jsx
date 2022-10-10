@@ -30,11 +30,12 @@ const Data = () => {
         <p className="home__subtitle">
             Computer Engineering Student
         </p>
+
         {/* <p className="home__description">
             Computer Engineering Undergrad
         </p> */}
 
-        <a href="#contact" className="button button--flex">
+        <a href="#contact" className="button button--flex home__button">
             Say Hello!
             <svg
               class="button__icon"
