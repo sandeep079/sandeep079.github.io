@@ -85,8 +85,8 @@
 
 .button:hover {
     background-color: var(--light-special-color);
-    border-bottom: 2px solid var(--special-color);
-    border-right: 2px solid var(--special-color);
+    border-bottom: 3px solid var(--special-color);
+    border-right: 3px solid var(--special-color);
 }
 
 @keyframes profile__animate {

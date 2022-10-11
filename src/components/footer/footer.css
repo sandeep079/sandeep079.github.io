@@ -1,0 +1,114 @@
+.footer {
+    background-color: #8465c6;
+}
+
+.footer__container {
+    border-top: 9px dotted #7b5cbd;
+    padding: 2rem 0 6rem;
+}
+
+.footer__title,
+.footer__link {
+    color: var(--container-color);
+}
+
+.footer__title {
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: var(--mb-2);
+    text-shadow: 1px 1px 1px rgb(219, 187, 251);
+
+}
+
+.footer__link {
+    color: var(--container-color);
+    font-size: var(--normal-font-size);
+}
+
+.footer__link:hover {
+    color: var(--title-color-dark);
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.6rem;
+}
+
+.footer__social-link {
+    /* background-color: var(--special-color); */
+    color: var(--title-color-dark);
+    font-size: 1.25rem;
+    padding: 5px 2px;
+    border-radius: 15%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    border: 1px solid var(--title-color-dark);
+
+}
+
+.footer__social-link:hover {
+    background-color: #bda8e9;
+    color: var(--title-color-dark);
+    border-bottom: 3px solid #4c16c0;
+    border-right: 3px solid #4c16c0;
+}
+
+.footer__copy {
+    display: block;
+    margin-top: 4.5rem;
+    margin-bottom: -2rem;
+    color: var(--light-special-color);
+    text-align: center;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+
+  
+  /* For small devices */
+  @media screen and (max-width: 375px) {
+
+    .footer {
+        background-color: var(--body-color);
+        border-top: 0px solid rgba(0, 0, 0);
+    }
+
+    .footer__title,
+    .footer__link {
+        color: var(--text-color);
+    }
+    
+    .footer__title {
+        text-shadow: 0px 1px 1px rgb(129, 123, 123);
+    }
+    
+    .footer__list {
+        color: var(--title-color-dark);
+        column-gap: 1.5rem;
+    }
+    
+    .footer__social {
+        column-gap: 0.6rem;
+    }
+    
+    .footer__social-link {
+        width: 3rem;
+        height: 1.8rem;
+    }
+    
+    .footer__copy {
+        color: var(--text-color);
+    }
+  }
+  

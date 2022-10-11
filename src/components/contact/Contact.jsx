@@ -13,7 +13,7 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-        <h2 className="section__title">
+        <h2 className="section__title contact__title">
             <AnimatedLetters
             letterClass={letterClass}
             strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e']}
@@ -58,14 +58,14 @@ const Contact = () => {
                 </div>
 
             <div className="contact__content">
-                <form className="contact__form">
+                <form className="contact__form" autoComplete='off'>
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
                         <input 
                             type="text" 
                             name="name" 
                             className="contact__form-input" 
-                            placeholder='Enter your name'/>
+                            placeholder='Enter your name' />
                     </div>
 
                     <div className="contact__form-div">
@@ -74,7 +74,7 @@ const Contact = () => {
                             type="email" 
                             name="email" 
                             className="contact__form-input" 
-                            placeholder='Enter your email'/>
+                            placeholder='Enter your email' />
                     </div>
 
                     <div className="contact__form-div contact__form-area">

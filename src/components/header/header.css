@@ -5,7 +5,7 @@
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
-    border-top: 15px solid var(--light-special-color);
+    border-top: 10px solid var(--light-special-color);
 }
 
 .nav {
