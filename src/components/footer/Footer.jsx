@@ -66,7 +66,7 @@ const Footer = () => {
             </div>
 
             <span className="footer__copy">
-                &#169; Yunika Bajracharya
+                &#169; 2022 Yunika Bajracharya
             </span>
         </div>
     </footer>

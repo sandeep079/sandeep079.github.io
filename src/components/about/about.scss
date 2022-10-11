@@ -1,7 +1,7 @@
 .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    // column-gap: 4rem;
+    // column-gap: 0rem;
 }
 
 .about__description {
@@ -9,6 +9,8 @@
     padding-left: 0 4rem 0 0;
     margin-bottom: var(--mb-2);
     animation: pulse 1s;
+    font-size: var(--normal-font-size);
+    margin-left: -10px;
 }
 
 .stage-cube-cont {
