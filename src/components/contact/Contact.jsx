@@ -1,5 +1,6 @@
 import './contact.css';
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
+import emailjs from '@emailjs/browser';
 import AnimatedLetters from '../animatedLetters/AnimatedLetters';
 
 const Contact = () => {
@@ -10,6 +11,21 @@ const Contact = () => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+        .sendForm(
+            'service_v4o672o', 
+            'template_oeblijc', 
+            form.current, 'mH4YwjfgZGDHGFdHK'
+        )
+
+        e.target.reset();
+  };
 
   return (
     <section className="contact section" id="contact">
@@ -58,7 +74,8 @@ const Contact = () => {
                 </div>
 
             <div className="contact__content">
-                <form className="contact__form" autoComplete='off'>
+                <form ref={form} onSubmit={sendEmail}
+                    className="contact__form" autoComplete='off'>
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
                         <input 
@@ -79,7 +96,10 @@ const Contact = () => {
 
                     <div className="contact__form-div contact__form-area">
                         <label className="contact__form-tag">Message</label>
-                        <textarea name="Message" cols="30" rows="10"
+                        <textarea 
+                            name="message"
+                            cols="30"
+                            rows="10"
                             className='contact__form-input'
                             placeholder='Write your message'></textarea>
                     </div>

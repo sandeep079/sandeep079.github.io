@@ -49,7 +49,7 @@ const Blog = () => {
           }}
           modules={[Pagination]}
         >
-            {Data.map(({id, image, title, description}) => {
+            {Data.map(({id, image, title, link, description}) => {
                 return (
                   <SwiperSlide className="blog__card" key={id}>
                     <a href=''>
@@ -57,7 +57,7 @@ const Blog = () => {
                         <img src={image} alt=""
                         className='blog__img' />
                         <div className="image__overlay image__overlay--blur">
-                          <div className="text">Read Blog</div>
+                          <a href={link} target="_blank" className='text'>Read Blog</a>
                         </div>
                       </div>
                       <h3 className="blog__name">{title}</h3>
