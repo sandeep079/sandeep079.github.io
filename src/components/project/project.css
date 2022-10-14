@@ -1,0 +1,32 @@
+.project__name {
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+    margin-bottom: 1rem;
+}
+
+.project-image__section {
+    justify-content: center;
+    display: flex;
+}
+
+.project__img {
+    width: 80%;
+}
+
+.stack {
+    margin-bottom: 10px;
+    margin-right: 8px;
+    background-color: var(--light-special-color);
+    color: var(--title-color-dark);
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px var(--special-color);
+    cursor: grab;
+}
+
+.project__description {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: var(--title-color);
+}

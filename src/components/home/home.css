@@ -205,7 +205,7 @@
         font-size: 1rem;
     }
 
-    .button {
+    .home__button {
         margin-left: 6rem;
     }
   }
@@ -228,7 +228,7 @@
         font-size: .7rem;
     }
 
-    .button {
+    .home__button {
         margin-left: 4rem;
     }
   }
@@ -243,9 +243,5 @@
     .home__subtitle {
         margin-left: 1rem;
         font-size: .75rem;
-    }
-
-    .button {
-        margin-left: 4rem;
     }
   }
