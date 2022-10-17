@@ -30,8 +30,8 @@ const Project = () => {
             idx = {15}
             />
         </h2>
-        <span className="section__subtitle"></span>
-
+        {/* <span className="section__subtitle"></span> */}
+        <br />
         <Swiper className="blog__container project__container"
           // loop={true}
           grabCursor={true}
@@ -53,7 +53,7 @@ const Project = () => {
         >
             {Data.map(({id, image, title, stack, link, demo, description}) => {
                 return (
-                  <SwiperSlide className="blog__card project__card" key={id}>
+                  <SwiperSlide className="blog__card project__card">
 
                       <div className="image__section project-image__section">
                         <img src={image} alt=""
@@ -71,7 +71,7 @@ const Project = () => {
                       }
                       <p className="project__description">{description}</p>
                       <div>
-                      <a href={link} target="_blank"><button className="button project-button">GitHub</button></a>
+                      <a href={link} target="_blank">{ link ? <button className="button project-button">GitHub</button> : null}</a>
                       <a href={demo} target="_blank">{ demo ? <button className="button project-button">Demo</button> : null}</a>
                       </div>
                   </SwiperSlide>

@@ -4,6 +4,8 @@
 
 .project__card {
     border-radius: 5px;
+    /* min-height: 630px; */
+    align-self: center;
 }
 
 .project__name {
@@ -48,4 +50,8 @@
 .swiper-button-prev {
     margin-left: -10px;
     color: var(--special-color) !important;
+}
+
+.swiper-pagination {
+    top: 95%;
 }

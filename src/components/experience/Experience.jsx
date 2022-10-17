@@ -1,5 +1,5 @@
 import './experience.css';
-import { experienceData, volunteeringData, scholarshipData, educationData } from './Data';
+import { technicalData, experienceData, scholarshipData, educationData } from './Data';
 import React, {useState, useEffect} from 'react';
 import AnimatedLetters from '../animatedLetters/AnimatedLetters';
 
@@ -131,7 +131,7 @@ const Experience = () => {
             "journey__content journey__content-active"
             : "journey__content"}>
 
-            {experienceData.map((item) => {
+            {technicalData.map((item) => {
               return (
                 <>
                 <div className="journey__data">
@@ -156,7 +156,7 @@ const Experience = () => {
             "journey__content journey__content-active"
             : "journey__content"}>
 
-            {volunteeringData.map((item) => {
+            {experienceData.map((item) => {
               return (
                 <>
                 <div className="journey__data">

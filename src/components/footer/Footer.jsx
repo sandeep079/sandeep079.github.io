@@ -63,6 +63,10 @@ const Footer = () => {
                 <a href="https://twitter.com/YunikaB_" className="footer__social-link" target="_blank">
                     <i className="bx bxl-twitter"></i>
                 </a>
+
+                <a href="https://www.youtube.com/channel/UCaz96_0tQhDsb-3JenVFu7g" className="footer__social-link" target="_blank">
+                    <i className="bx bxl-youtube"></i>
+                </a>
             </div>
 
             <span className="footer__copy">

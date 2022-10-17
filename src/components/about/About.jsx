@@ -5,7 +5,7 @@ import three from "../../assets/3.png";
 import four from "../../assets/4.png";
 import five from "../../assets/5.png";
 import six from "../../assets/6.png";
-import CV from "../../assets/John-Cv.pdf";
+import resumeYunika from "../../assets/resumeYunika.pdf";
 import React, {useState, useEffect} from 'react';
 import AnimatedLetters from '../animatedLetters/AnimatedLetters';
 
@@ -60,7 +60,7 @@ const About = () => {
             I am a third-year Computer Engineering Undergrad at Tribhuvan Univeristy, Pulchowk Campus. I aspire to build useful tools and impactful solutions through technology. <br /> <br />
             My current involvement on campus includes being the Technical Manager of Pulchowk Girls and Editor of The Zerone, the annual tech magazine of Pulchowk Campus. I have also been volunteering at Girls in Tech-Nepal for the past two years to empower and learn from women in tech. In my free time, I also love reading books and painting.<br /><br />
           
-            <a download="" href={CV} className="button button--flex button-about">
+            <a download="" href={resumeYunika} className="button button--flex button-about">
               Download Resume
               <svg
                   class="button__icon"

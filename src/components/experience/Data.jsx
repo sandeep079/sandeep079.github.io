@@ -1,5 +1,5 @@
 import osd from '../../assets/osd.jpg';
-import Experience3 from '../../assets/3.png';
+import Experience3 from '../../assets/33.png';
 import anitaB from '../../assets/anitaB.jpg';
 import gfd from '../../assets/gfd.jpg';
 import git from '../../assets/git.jpg';
@@ -15,7 +15,7 @@ import codeRush from '../../assets/codeRush.png';
 
 
 
-export const experienceData = [
+export const technicalData = [
     {
         image: pg,
         title: 'Technical Manager',
@@ -65,8 +65,11 @@ export const experienceData = [
         description: (
             <ul className='ul'>
                 <li>Selected as one of the 15 fellows.</li>
-                <li>Skills: HTML, CSS, JavaScript, NodeJS, Express, React.js</li>
-                <li>Projects: <a href='https://github.com/Coderushnepal/YunikaBajracharya' target='_blank'>Click Here</a></li>
+                <li><b>Skills:</b> HTML, CSS, JavaScript, NodeJS, Express, React.js</li>
+                <li><b>Projects:</b> <a href='https://github.com/Coderushnepal/YunikaBajracharya' target='_blank'>Click Here </a>
+                &#x2B29;
+                <a href='https://medium.com/code-rush-blog/code-like-her-fellowship-ii-weekly-6-32ee89b54cc1'> Blog</a>
+                </li>
             </ul>),
     },
     {
@@ -78,9 +81,10 @@ export const experienceData = [
             <ul className='ul'>
                 <li>Led the team project ‘Tech4Good’ on tracking the insulin dose and glucometer readings for Diabetic patients.</li>
                 <li>Learned fundamental courses on 5G, Cloud Computing, and AI</li>
-                <li> Project Details: 
-                    <a href='https://sathi-app.github.io/' target='_blank'> Website &#x2B29; </a>
-                    <a href='https://www.youtube.com/watch?v=mxnGCWSWLTY&list=PLfEevmzbs5mMKyBsHwh8c73v6xC60i4eX&index=4' target='_blank'> Intro Video &#x2B29; </a>
+                <li>Visited 4G base station in Ghandruk and attended sessions on leadership, tech talks, cultural exchange.</li>
+                <li>Project Details: 
+                    <a href='https://sathi-app.github.io/' target='_blank'> Website </a>&#x2B29;
+                    <a href='https://www.youtube.com/watch?v=mxnGCWSWLTY&list=PLfEevmzbs5mMKyBsHwh8c73v6xC60i4eX&index=4' target='_blank'> Intro Video </a>&#x2B29;
                     <a href='https://www.youtube.com/watch?v=ij6_imqs3Nc&list=PLfEevmzbs5mMKyBsHwh8c73v6xC60i4eX&index=4' target='_blank'> Demo Video</a>
                 </li>
                 <li><a href='https://www.youtube.com/watch?v=k4MR0XnlJ_I&list=PLfEevmzbs5mMKyBsHwh8c73v6xC60i4eX&index=1' target='_blank'>Student Representative</a></li>
@@ -88,7 +92,7 @@ export const experienceData = [
     },
 ];
 
-export const volunteeringData = [
+export const experienceData = [
     {
         image: zerone,
         title: 'Editor',
@@ -144,7 +148,7 @@ export const volunteeringData = [
         description: (
             <ul className='ul'>
                 <li>Discussed women's rights and social justice with women across 7 countries for 6 weeks.</li>
-                <li>Panelist in Panel Discussion - ‘Stand Up Against Gender-Based Violence’ on 23rd Nov 2020.</li>
+                <li>Panelist in Panel Discussion - ‘Stand Up Against Gender-Based Violence’ on Nov 23, 2020 to celebrate the beginning of the 16 Days of Activism against Gender-Based Violence.</li>
             </ul>),
     },
 ];
@@ -170,7 +174,7 @@ export const educationData = [
     {
         image: tu,
         title: 'Tribhuvan Universtiy, Pulchowk Campus',
-        company: 'Bachelors in Computer Engineering ',
+        company: 'Bachelor in Computer Engineering ',
         date: ' | 2019-2024',
         description: '',
     },
