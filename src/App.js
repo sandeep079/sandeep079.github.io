@@ -1,11 +1,12 @@
 import './App.css';
-import Header from './components/header/Header';
 import Home from './components/home/Home';
-import About from './components/about/About';
 import Blog from './components/blog/Blog';
-import Contact from './components/contact/Contact';
+import About from './components/about/About';
+import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Project from './components/project/Project';
+import Contact from './components/contact/Contact';
+import Experience from './components/experience/Experience';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <main className='main'>
         <Home />
         <About />
+        <Experience />
         <Project />
         <Blog />
         <Contact />

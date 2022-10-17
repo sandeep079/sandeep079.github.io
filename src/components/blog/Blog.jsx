@@ -7,9 +7,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import 'swiper/css/navigation';
 
 // import required modules
-import { Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper";
 
 const Blog = () => {
     const [letterClass, setLetterClass] = useState('text-animate');

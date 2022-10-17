@@ -31,7 +31,7 @@ export const Data = [
         category: '',
         link: 'https://github.com/Yunika-Bajracharya/Dhungedhara',
         demo: '',
-        description: 'Dhungedhara project is a simulation of a traditional stone drinking water fountain called Lho Hiti. The 3D model contains lho hiti, the stone tap along with its surroundings, flowers, stairs and water jar called gagri in Nepali. We have included daytime as well as night time views.',
+        description: "This is a simulation of a traditional stone drinking water fountain called Lho Hiti. The 3D model also includes the surrounding, flowers, stairs and water jar called 'gagri' in Nepali with the day time as well as night time views.",
         stack: ["C++", 'OpenGL', 'GLSL', 'Blender'],
     },
 ]

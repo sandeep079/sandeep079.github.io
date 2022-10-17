@@ -1,7 +1,15 @@
+.project__container {
+    padding: 0 41px;
+}
+
+.project__card {
+    border-radius: 5px;
+}
+
 .project__name {
     font-family: var(--body-font);
     font-weight: var(--font-medium);
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 .project-image__section {
@@ -10,7 +18,7 @@
 }
 
 .project__img {
-    width: 80%;
+    width: 65%;
 }
 
 .stack {
@@ -29,4 +37,15 @@
     margin-bottom: 15px;
     font-size: 1.1rem;
     color: var(--title-color);
+}
+
+.swiper-button-next {
+    margin-right: -10px;
+    color: var(--special-color) !important;
+
+}
+
+.swiper-button-prev {
+    margin-left: -10px;
+    color: var(--special-color) !important;
 }

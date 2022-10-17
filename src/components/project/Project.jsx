@@ -7,9 +7,10 @@ import AnimatedLetters from '../animatedLetters/AnimatedLetters';
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import 'swiper/css/navigation';
 
 // import required modules
-import { Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper";
 
 const Project = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -31,13 +32,14 @@ const Project = () => {
         </h2>
         <span className="section__subtitle"></span>
 
-        <Swiper className="blog__container"
+        <Swiper className="blog__container project__container"
           // loop={true}
           grabCursor={true}
           spaceBetween={24}
           pagination={{
             clickable: true,
           }}
+          navigation
           breakpoints={{
             576: {
               slidesPerView: 1,
@@ -47,11 +49,11 @@ const Project = () => {
               spaceBetween: 48,
             },
           }}
-          modules={[Pagination]}
+          modules={[Navigation, Pagination]}
         >
             {Data.map(({id, image, title, stack, link, demo, description}) => {
                 return (
-                  <SwiperSlide className="blog__card" key={id}>
+                  <SwiperSlide className="blog__card project__card" key={id}>
 
                       <div className="image__section project-image__section">
                         <img src={image} alt=""
