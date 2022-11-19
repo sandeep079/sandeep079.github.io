@@ -3,8 +3,28 @@ import chess from "../../assets/project2.png";
 import dhungedhara from "../../assets/project3.png";
 import clhp from "../../assets/clhp.png";
 import sathi from "../../assets/sathi.png";
+import maitrika from "../../assets/maitrika.png";
+import sahayatri from "../../assets/sahayatri.png";
 
 export const Data = [
+    {
+        image: sahayatri,
+        title: 'SahaYatri',
+        category: '',
+        link: 'https://github.com/YAARS-2022',
+        demo: 'https://www.youtube.com/watch?v=Xf5o13Zutak',
+        description: 'Real-time school bus tracking system using a low-powered GPS tracking device, with a web app for schools to monitor their school buses, and mobile app for parents to know their child’s location.',
+        stack: ['React', 'Flutter', 'Firebase','Open Street Map','Lora', 'Arduino, NodeMCU'],
+    },
+    {
+        image: maitrika,
+        title: 'Maitrika',
+        category: '',
+        link: 'https://github.com/Yunika-Bajracharya/Hungry-Hackee-Hunts',
+        demo: '',
+        description: ' Application that connects health workers with doctors, tracks events, and generates reports based on data taken by health workers to aid in checkups.',
+        stack: ['MERN stack', 'WebRTC', 'i18next','chart.js'],
+    },
     {
         image: hhh,
         title: 'Hungry Hackee Hunts',

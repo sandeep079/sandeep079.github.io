@@ -56,11 +56,11 @@ const Experience = () => {
 
           <div 
             className = {
-              toggleState === 1 ? 
+              toggleState === 2 ? 
               "journey__button journey__active button--flex" 
               : "journey__button button--flex"
             }
-            onClick = {() => toggleTab(1)}
+            onClick = {() => toggleTab(2)}
           >
             <i className="uil uil-graduation-cap journey__icon"></i>
             Education
@@ -68,11 +68,11 @@ const Experience = () => {
 
           <div 
             className = {
-              toggleState === 2 ? 
+              toggleState === 1 ? 
               "journey__button journey__active button--flex" 
               : "journey__button button--flex"
             }
-            onClick = {() => toggleTab(2)}
+            onClick = {() => toggleTab(1)}
           >
             <i className="uil uil-rocket journey__icon"></i>
             Technical
@@ -105,7 +105,7 @@ const Experience = () => {
 
         <div className="journey__sections">
     
-          <div className={toggleState === 1 ?
+          <div className={toggleState === 2 ?
             "journey__content journey__content-active"
             : "journey__content"}>
 
@@ -127,7 +127,7 @@ const Experience = () => {
             })}
           </div>
 
-          <div className={toggleState === 2 ?
+          <div className={toggleState === 1 ?
             "journey__content journey__content-active"
             : "journey__content"}>
 

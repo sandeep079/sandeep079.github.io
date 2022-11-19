@@ -12,7 +12,7 @@ import hmv from '../../assets/hmv.png';
 import swarnim from '../../assets/swarnim.png';
 import kmc from '../../assets/kmc.jpg';
 import codeRush from '../../assets/codeRush.png';
-
+import aceIgnite from '../../assets/aceIgnite.png';
 
 
 export const technicalData = [
@@ -20,7 +20,7 @@ export const technicalData = [
         image: pg,
         title: 'Technical Manager',
         company: 'Pulchowk Girls',
-        date: 'Sep 2020 - Present',
+        date: 'Jun 2022 - Present',
         description: (
             <ul className='ul'>
                 <li>Manage technical aspects and design posters of the events.</li>
@@ -154,6 +154,13 @@ export const experienceData = [
 ];
 
 export const scholarshipData = [
+    {
+        image: aceIgnite,
+        title: 'Ace Ignite 48-hour Hackathon 2022 Winner',
+        company: 'Ace Institute of Management',
+        date: 'Nov 11-13, 2022',
+        description:'',
+    },
     {
         image: anitaB,
         title: 'Grace Hopper Celebration Scholar 2022',
