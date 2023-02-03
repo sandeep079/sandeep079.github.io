@@ -15,7 +15,7 @@ export const Data = [
     link: "https://github.com/Yunika-Bajracharya/Newsly_frontend",
     demo: "",
     description:
-      "Newsly provides summarized news stories and the day's top news that can be read or listened in either English or Nepali. It also offers a daily newsletter tailored to the user's preferences through email and real-time news update in Discord and Telegram.",
+      "Newsly provides summarized news stories and the day's top news that can be read or listened in either English or Nepali. It also has an offline mode and offers a daily newsletter tailored to the user's preferences through email and real-time news update in Discord and Telegram.",
     stack: [
       "Flutter",
       "Django",
