@@ -45,7 +45,7 @@ export const Data = [
     image: maitrika,
     title: "Maitrika",
     category: "",
-    link: "https://github.com/Yunika-Bajracharya/Hungry-Hackee-Hunts",
+    link: "https://github.com/dhakalmahima188/Maitrika",
     demo: "",
     description:
       " Application that connects health workers with doctors, tracks events, and generates reports based on data taken by health workers to aid in checkups.",
