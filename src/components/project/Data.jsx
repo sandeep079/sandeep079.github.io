@@ -6,8 +6,25 @@ import sathi from "../../assets/sathi.png";
 import maitrika from "../../assets/maitrika.png";
 import sahayatri from "../../assets/sahayatri.png";
 import newsly from "../../assets/newsly.png";
+import falldetection from "../../assets/falldetection.png";
 
 export const Data = [
+  {
+    image: falldetection,
+    title: "Fall Detection Device For Elderly",
+    category: "",
+    link: "https://github.com/suban244/FallDetection",
+    demo: "",
+    description:
+      "A real-time fall detection wearable for elderly that alerts emergency contacts if a fall is detected or help is needed. We use an IMU sensor to sense the motion, LSTM and CNN model to classsify fall and GSM module to send emergency message to provided contacts.",
+    stack: [
+      "MPU 6050",
+      "Raspberry Pi Pico",
+      "Sim 900A",
+      "Micropython",
+      "Tensorflow",
+    ],
+  },
   {
     image: newsly,
     title: "Newsly",

@@ -63,8 +63,8 @@ const About = () => {
             Zerone, the annual tech magazine of Pulchowk Campus. <br />
             <br />
             When I'm not travelling to new places or binge-watching my favorite
-            shows, you'll catch me getting lost in a good book or putting my
-            artistic skills to the test with some painting.
+            shows, you'll catch me getting lost in a book or putting my artistic
+            skills to the test with some painting.🖌️
             <br />
             <br />
             {/* <a download="" href={resumeYunika} className="button button--flex button-about">

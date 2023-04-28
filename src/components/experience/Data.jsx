@@ -15,6 +15,7 @@ import codeRush from "../../assets/codeRush.png";
 import aceIgnite from "../../assets/aceIgnite.png";
 import revampathon from "../../assets/revampathon.jpg";
 import codecamp from "../../assets/codecamp.png";
+import shequal from "../../assets/shequal.png";
 
 export const technicalData = [
   {
@@ -176,6 +177,12 @@ export const experienceData = [
     description: (
       <ul className="ul">
         <li>
+          <b>Interview Head&emsp;</b>
+          |&emsp;<button>The Zerone 2023</button>
+          <br />
+          Interviewed prominent tech professionals for the magazine..
+        </li>
+        <li>
           <b>Associate Editor&emsp;</b>
           |&emsp;<button>The Zerone 2021</button>
           <br />
@@ -186,8 +193,8 @@ export const experienceData = [
           <b>Editor&emsp;</b>
           |&emsp;<button>The Zerone 2020</button>
           <br />
-          Wrote, edited articles, and designed posters for the magazine, writing
-          sessions, and competitions.
+          Wrote, edited articles for the magazine, writing competitions and
+          designed posters for writing sessions.
         </li>
       </ul>
     ),
@@ -266,6 +273,13 @@ export const experienceData = [
 
 export const scholarshipData = [
   {
+    image: shequal,
+    title: "Hacking For Humanity Second Runner Up",
+    company: "Shequal Foundation",
+    date: "Feb 10-12, 2023",
+    description: "",
+  },
+  {
     image: codecamp,
     title: "UXCam Code Camp First Runner Up",
     company: "Locus 2023",
@@ -274,14 +288,14 @@ export const scholarshipData = [
   },
   {
     image: revampathon,
-    title: "Revampathon Winner",
+    title: "Revampathon Hackathon Winner",
     company: "Leapfrog Student Partnership Program",
     date: "Dec 2-17, 2022",
     description: "",
   },
   {
     image: aceIgnite,
-    title: "Ace Ignite 48-hour Hackathon 2022 Winner",
+    title: "Ace Ignite 48-hour Hackathon Winner",
     company: "Ace Institute of Management",
     date: "Nov 11-13, 2022",
     description: "",
