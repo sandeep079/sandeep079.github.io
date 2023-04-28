@@ -19,9 +19,9 @@ const Contact = () => {
   const messageSentRef = useRef(null);
 
   const validateForm = () => {
-    let name = document.forms["myForm"]["fname"].value;
+    let name = document.forms["form"]["name"].value;
     const errorName = errorNameRef.current;
-    if (name.length < 3) {
+    if (name.length < 1) {
       errorName.textContent = "Field cannot be empty";
       return false;
     } else {
@@ -29,7 +29,7 @@ const Contact = () => {
     }
 
     let emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    let email = document.forms["myForm"]["femail"].value;
+    let email = document.forms["form"]["email"].value;
     const emailError = errorEmailRef.current;
     if (email == "" || !email.match(emailFormat)) {
       emailError.textContent = "Email is not valid";
@@ -38,7 +38,7 @@ const Contact = () => {
       emailError.textContent = "";
     }
 
-    let message = document.forms["myForm"]["fmessage"].value;
+    let message = document.forms["form"]["message"].value;
     const errorMessage = errorMessageRef.current;
     if (message.length < 1) {
       errorMessage.textContent = "Field cannot be empty";
@@ -61,10 +61,13 @@ const Contact = () => {
         "mH4YwjfgZGDHGFdHK"
       );
       const messageSent = messageSentRef.current;
-      messageSent.textContent = "Message Sent";
-    }
+      messageSent.style.display = "block";
 
-    e.target.reset();
+      e.target.reset();
+      setTimeout(() => {
+        messageSent.style.display = "none";
+      }, 3000);
+    }
   };
 
   return (
@@ -115,7 +118,7 @@ const Contact = () => {
         <div className="contact__content">
           <form
             ref={form}
-            name="myForm"
+            name="form"
             onSubmit={sendEmail}
             className="contact__form"
             autoComplete="off"
@@ -124,7 +127,7 @@ const Contact = () => {
               <label className="contact__form-tag">Name</label>
               <input
                 type="text"
-                name="fname"
+                name="name"
                 className="contact__form-input"
                 placeholder="Enter your name"
               />
@@ -135,7 +138,7 @@ const Contact = () => {
               <label className="contact__form-tag">Email</label>
               <input
                 type="email"
-                name="femail"
+                name="email"
                 className="contact__form-input"
                 placeholder="Enter your email"
               />
@@ -146,7 +149,7 @@ const Contact = () => {
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Message</label>
               <textarea
-                name="fmessage"
+                name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
@@ -175,7 +178,9 @@ const Contact = () => {
                 ></path>
               </svg>
             </button>
-            <small className="messageSent " ref={messageSentRef}></small>
+            <small className="messageSent " ref={messageSentRef}>
+              Message Sent
+            </small>
           </form>
         </div>
       </div>
