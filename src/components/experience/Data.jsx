@@ -16,44 +16,26 @@ import aceIgnite from "../../assets/aceIgnite.png";
 import revampathon from "../../assets/revampathon.jpg";
 import codecamp from "../../assets/codecamp.png";
 import shequal from "../../assets/shequal.png";
+import hackadev from "../../assets/HackaDev.jpeg";
+import gce from "../../assets/gce.png";
+import beamlab from "../../assets/beamlab.jpeg";
 
 export const technicalData = [
   {
-    image: pg,
-    title: "Technical Manager",
-    company: "Pulchowk Girls",
-    date: "Jun 2022 - Present",
-    description: (
-      <ul className="ul">
-        <li>Manage technical aspects and design posters of the events.</li>
-      </ul>
-    ),
-  },
-  {
-    image: Experience3,
-    title: "Instructor",
-    company: "Workshops & Traning Programs",
-    date: "",
+    image: beamlab,
+    title: "Front-end Developer Internship",
+    company: "Beam Lab",
+    date: "Jan -  Feb 2023",
     description: (
       <ul className="ul">
         <li>
-          <b>Version Control System with Git&emsp;</b>
-          |&emsp;<button>Jul 12 - Jul 15, 2022</button>
-          <br />
-          Instructed students on git and version control in a 4-day workshop
-          organized by IT Club, Pulchowk.
-        </li>
-        <li>
-          <b>Microsoft Bootcamp Trainer, Girls in Tech–Nepal&emsp;</b>
-          |&emsp;<button>Apr - Jun, 2022</button>
-          <br />
-          Instructor for Microsoft Office training given to students of Center
-          for Disabled Children Assistance (CDCA), Dhanyawaad, and Tara Namaste
-          Orphanage.
+          Developed an admin portal and implemented login authentication for a
+          project.
         </li>
       </ul>
     ),
   },
+
   {
     image: osd,
     title: "Open Source Day Mentor, Participant",
@@ -170,6 +152,26 @@ export const technicalData = [
 
 export const experienceData = [
   {
+    image: gce,
+    title: "GitHub Campus Expert",
+    company: "GitHub",
+    date: "Nov 2022 - Present",
+    description: (
+      <p className="ul">
+        GitHub Campus Experts are student leaders that strive to build diverse
+        and inclusive spaces to learn skills, share their experiences, and build
+        projects together. View my{" "}
+        <a
+          href="https://githubcampus.expert/Yunika-Bajracharya/"
+          target="_blank"
+        >
+          Profile
+        </a>
+        .
+      </p>
+    ),
+  },
+  {
     image: zerone,
     title: "Editor",
     company: "The Zerone",
@@ -195,6 +197,42 @@ export const experienceData = [
           <br />
           Wrote, edited articles for the magazine, writing competitions and
           designed posters for writing sessions.
+        </li>
+      </ul>
+    ),
+  },
+  {
+    image: pg,
+    title: "Technical Manager",
+    company: "Pulchowk Girls",
+    date: "Jun 2022 - Jun 2023",
+    description: (
+      <ul className="ul">
+        <li>Manage technical aspects and design posters of the events.</li>
+      </ul>
+    ),
+  },
+  {
+    image: Experience3,
+    title: "Instructor",
+    company: "Workshops & Traning Programs",
+    date: "",
+    description: (
+      <ul className="ul">
+        <li>
+          <b>Version Control System with Git&emsp;</b>
+          |&emsp;<button>Jul 12 - Jul 15, 2022</button>
+          <br />
+          Instructed students on git and version control in a 4-day workshop
+          organized by IT Club, Pulchowk.
+        </li>
+        <li>
+          <b>Microsoft Bootcamp Trainer, Girls in Tech–Nepal&emsp;</b>
+          |&emsp;<button>Apr - Jun, 2022</button>
+          <br />
+          Instructor for Microsoft Office training given to students of Center
+          for Disabled Children Assistance (CDCA), Dhanyawaad, and Tara Namaste
+          Orphanage.
         </li>
       </ul>
     ),
@@ -272,6 +310,13 @@ export const experienceData = [
 ];
 
 export const scholarshipData = [
+  {
+    image: hackadev,
+    title: "HackaDev - AI for Impact Winner",
+    company: "DiyoAI",
+    date: "May 22 - Jun 1, 2023",
+    description: "",
+  },
   {
     image: shequal,
     title: "Hacking For Humanity Second Runner Up",
