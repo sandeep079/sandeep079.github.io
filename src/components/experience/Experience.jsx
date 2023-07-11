@@ -70,7 +70,7 @@ const Experience = () => {
             onClick={() => toggleTab(2)}
           >
             <i className="uil uil-graduation-cap journey__icon"></i>
-            Education
+            <span className="journey__heading">Education</span>
           </div>
 
           <div
@@ -82,7 +82,7 @@ const Experience = () => {
             onClick={() => toggleTab(1)}
           >
             <i className="uil uil-rocket journey__icon"></i>
-            Experience
+            <span className="journey__heading">Experience</span>
           </div>
 
           <div
@@ -94,7 +94,7 @@ const Experience = () => {
             onClick={() => toggleTab(3)}
           >
             <i className="uil uil-star journey__icon"></i>
-            Volunteering
+            <span className="journey__heading">Volunteering</span>
           </div>
           <div
             className={
@@ -105,7 +105,7 @@ const Experience = () => {
             onClick={() => toggleTab(4)}
           >
             <i className="uil uil-award journey__icon"></i>
-            Award&#x2B29;Scholarship
+            <span className="journey__heading">Award&#x2B29;Scholarship</span>
           </div>
         </div>
 

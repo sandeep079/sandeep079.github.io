@@ -283,21 +283,17 @@
 }
 
 @media screen and (max-width: 480px) {
+  .cup__container {
+    display: none;
+  }
+
   .contact__content {
-    padding: 28px;
-    background: none;
-  }
-
-  .contact {
-    background: var(--body-color);
-  }
-
-  .contact__form-tag {
-    background: var(--body-color);
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .contact__form {
-    width: 300px;
+    width: 310px;
     margin-left: 20px;
   }
 }
