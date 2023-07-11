@@ -35,6 +35,7 @@ const Project = () => {
       <Swiper
         className="blog__container project__container"
         // loop={true}
+        // autoHeight={true}
         grabCursor={true}
         spaceBetween={24}
         pagination={{

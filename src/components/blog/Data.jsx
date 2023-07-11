@@ -3,8 +3,18 @@ import Image2 from "../../assets/blog2.png";
 import Image3 from "../../assets/blog3.png";
 import Image4 from "../../assets/blog4.png";
 import Image5 from "../../assets/blog5.png";
+import Image6 from "../../assets/blog6.png";
 
 export const Data = [
+  {
+    id: 6,
+    image: Image6,
+    title:
+      "Innovating for a Better Future: In Conversation with Bishesh Khanal",
+    link: "https://medium.com/zerone-magazine/innovating-for-a-better-future-in-conversation-with-bishesh-khanal-bd288a2ef15e",
+    description:
+      "As we began our conversation with Mr. Khanal, it was immediately clear that his journey to the forefront of...",
+  },
   {
     id: 1,
     image: Image1,
@@ -19,7 +29,7 @@ export const Data = [
     title: "COVID-19 through the Eyes of My Grandmother",
     link: "https://yunikabajracharya.medium.com/covid-19-through-the-eyes-of-my-grandmother-8ab560c5477b",
     description:
-      "“Oh, God! How has this teeny-tiny invisible thing managed to confine humans, the mightiest of all creatures, inside their homes?...",
+      "“Oh, God! How has this teeny-tiny invisible thing managed to confine humans, the mightiest of all...",
   },
   {
     id: 2,
@@ -35,7 +45,7 @@ export const Data = [
     title: "Orpheus and Eurydice",
     link: "https://yunikabajracharya.medium.com/orpheus-and-eurydice-8fef38d2db0f",
     description:
-      "It was a bright sunny day, the birds were chirping. The palace was all colorful and the whole kingdom was decorated in joy...",
+      "It was a bright sunny day, the birds were chirping. The palace was all colorful and the whole kingdom...",
   },
   {
     id: 5,
@@ -43,6 +53,6 @@ export const Data = [
     title: "(Un-)social Media",
     link: "https://medium.com/zerone-magazine/un-social-media-4702a5192076",
     description:
-      "Meet the inner soliloquy that plays in our subconscious mind during an ordinary social media scroll! Still, we don't...",
+      "Meet the inner soliloquy that plays in our subconscious mind during an ordinary social media scroll...",
   },
 ];
