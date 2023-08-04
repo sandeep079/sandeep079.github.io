@@ -56,11 +56,12 @@ const About = () => {
 
         <div className="about__data">
           <p className="about__description">
-            I am a third-year Computer Engineering Undergrad at Tribhuvan
-            University, Pulchowk Campus. I am exploring and learning various
-            fields of tech. My current involvement on campus includes being the
-            Technical Manager of Pulchowk Girls and Interview Head of The
-            Zerone, the annual tech magazine of Pulchowk Campus. <br />
+            I am a Computer Engineering Undergrad at Tribhuvan University,
+            Pulchowk Campus. I am exploring and learning various fields of tech.
+            I also enjoy being a part of community events. With this passion for
+            fostering communities, I am currently serving as a GitHub Campus
+            Expert and the Editor in Chief of The Zerone, the annual tech
+            magazine of Pulchowk Campus. <br />
             <br />
             When I'm not travelling to new places or binge-watching my favorite
             shows, you'll catch me getting lost in a book or putting my artistic
