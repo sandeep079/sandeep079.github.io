@@ -173,16 +173,21 @@ export const experienceData = [
   },
   {
     image: zerone,
-    title: "Editor",
+    title: "Editor-in-Chief",
     company: "The Zerone",
-    date: "Jan 2020 - Present",
+    date: "June 2023 - Present",
     description: (
       <ul className="ul">
+        <li>
+          <b>Editor-in-Chief&emsp;</b>
+          |&emsp;<button>The Zerone 2024</button>
+          <br />
+        </li>
         <li>
           <b>Interview Head&emsp;</b>
           |&emsp;<button>The Zerone 2023</button>
           <br />
-          Interviewed prominent tech professionals for the magazine..
+          Interviewed prominent tech professionals for the magazine.
         </li>
         <li>
           <b>Associate Editor&emsp;</b>
@@ -219,6 +224,20 @@ export const experienceData = [
     date: "",
     description: (
       <ul className="ul">
+        <li>
+          <b>RoboCamp&emsp;</b>
+          |&emsp;<button>July 16 - 22, 2023</button>
+          <br />
+          Mentored students at RoboCamp, organized by Robotics Club, IOE
+          Pulchowk Campus.
+        </li>
+        <li>
+          <b>Software Fellowship&emsp;</b>
+          |&emsp;<button>June 25, 2023</button>
+          <br />
+          Instructed students on Object Oriented Programming using Python during
+          Software Fellowship, organized by LOCUS 2023.
+        </li>
         <li>
           <b>Version Control System with Git&emsp;</b>
           |&emsp;<button>Jul 12 - Jul 15, 2022</button>
@@ -268,7 +287,7 @@ export const experienceData = [
     image: git,
     title: "Outreach Coordinator Ambassador",
     company: "Girls in Tech-Nepal",
-    date: "Jan 2021 - Present",
+    date: "Jan 2021 - Jun 2023",
     description: (
       <>
         <ul className="ul-small-gap">
