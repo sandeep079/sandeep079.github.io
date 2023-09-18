@@ -1,19 +1,12 @@
 .art {
 }
 
-.line {
-  align-items: center;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .art__container {
   margin: auto;
   background-image: url("../../assets/color_art.jpg");
   background-size: cover;
   height: 455px;
   width: 694.5px;
-  /* border: 5px solid rgb(57, 52, 52); */
 }
 
 .sidebar {
@@ -38,7 +31,6 @@
   width: 20px;
   height: 20px;
   border: 2px solid rgb(0, 0, 0);
-  /* background-image: url("../../assets/paint_brush.png"); */
   background-size: cover;
   border-radius: 50%;
   bottom: 0;
@@ -66,10 +58,27 @@
   }
 
   .art__container {
-    grid-template-columns: 1fr;
+    height: 303.33px;
+    width: 463px;
+  }
+
+  .sidebar {
+    height: 303.33px;
+    width: 52.6%;
+    max-width: 463px;
   }
 }
 
 /* For medium devices */
 @media screen and (max-width: 500px) {
+  .art__container {
+    height: 227.5px;
+    width: 347.25px;
+  }
+
+  .sidebar {
+    height: 227.5px;
+    width: 52.6%;
+    max-width: 347.25px;
+  }
 }
