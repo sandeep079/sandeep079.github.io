@@ -23,7 +23,7 @@ import beamlab from "../../assets/beamlab.jpeg";
 export const technicalData = [
   {
     image: beamlab,
-    title: "Front-end Developer Internship",
+    title: "Software Intern",
     company: "Beam Lab",
     date: "Jan -  Feb 2023",
     description: (

@@ -1,0 +1,75 @@
+.art {
+}
+
+.line {
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.art__container {
+  margin: auto;
+  background-image: url("../../assets/color_art.jpg");
+  background-size: cover;
+  height: 455px;
+  width: 694.5px;
+  /* border: 5px solid rgb(57, 52, 52); */
+}
+
+.sidebar {
+  height: 455px;
+  width: 52.6%;
+  max-width: 694.5px;
+  resize: horizontal;
+  border-right: 2px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+  position: relative;
+  animation-name: effect-preview;
+  animation-delay: 1s;
+  animation-duration: 4s;
+  background-image: url("../../assets/bw_art.png");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.sidebar::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  /* background-image: url("../../assets/paint_brush.png"); */
+  background-size: cover;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  border-right: 0;
+  cursor: col-resize;
+}
+
+@keyframes effect-preview {
+  0% {
+    width: 10%;
+  }
+  50% {
+    width: 99%;
+  }
+  100% {
+    width: 52.6%;
+  }
+}
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 700px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+
+  .art__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 500px) {
+}
