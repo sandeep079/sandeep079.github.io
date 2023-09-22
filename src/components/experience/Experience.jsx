@@ -30,17 +30,19 @@ const Experience = () => {
     descriptionHeader = document.querySelectorAll(".journey__data");
 
   function activeExpand() {
-    let itemClass = this.nextSibling.className;
+    if (this.nextSibling.className) {
+      let itemClass = this.nextSibling.className;
 
-    for (let i = 0; i < descriptionContent.length; i++) {
-      descriptionContent[i].className =
-        "journey__description description__close";
-    }
-    if (itemClass === "journey__description description__close") {
-      this.nextSibling.className = "journey__description description__open";
-    }
-    if (itemClass === "journey__description description__open") {
-      this.nextSibling.className = "journey__description description__open";
+      for (let i = 0; i < descriptionContent.length; i++) {
+        descriptionContent[i].className =
+          "journey__description description__close";
+      }
+      if (itemClass === "journey__description description__close") {
+        this.nextSibling.className = "journey__description description__open";
+      }
+      if (itemClass === "journey__description description__open") {
+        this.nextSibling.className = "journey__description description__open";
+      }
     }
   }
 
