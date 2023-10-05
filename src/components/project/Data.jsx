@@ -16,7 +16,7 @@ export const Data = [
     link: "https://github.com/suban244/FallDetection",
     demo: "",
     description:
-      "A real-time fall detection wearable for elderly that alerts emergency contacts if a fall is detected or help is needed. We use an IMU sensor to sense the motion, LSTM and CNN model to classsify fall and GSM module to send emergency message to provided contacts.",
+      "A real-time fall detection wearable for elderly that alerts emergency contacts if a fall is detected or help is needed. We use an IMU sensor to sense the motion, LSTM and CNN model to classify fall and GSM module to send emergency message to provided contacts.",
     stack: [
       "MPU 6050",
       "Raspberry Pi Pico",
