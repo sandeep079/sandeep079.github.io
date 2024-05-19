@@ -19,22 +19,35 @@ import shequal from "../../assets/shequal.png";
 import hackadev from "../../assets/HackaDev.jpeg";
 import gce from "../../assets/gce.png";
 import beamlab from "../../assets/beamlab.jpeg";
+import naamche from "../../assets/naamche.png";
 
-export const technicalData = [
+export const experienceData = [
   {
-    image: beamlab,
-    title: "Software Intern",
-    company: "Beam Lab",
-    date: "Jan -  Feb 2023",
+    image: naamche,
+    title: "Software Engineering Intern",
+    company: "Naamche",
+    date: "Jan -  Mar 2024",
     description: (
       <ul className="ul">
         <li>
-          Developed an admin portal and implemented login authentication for a
-          project.
+          Worked on development of a chatbot, handling project bootstrapping,
+          websocket integration, message streaming and rendering, deployment to
+          AWS Amplify.
+        </li>
+        <li>
+          Contributed to designing server response for displaying sources,
+          ensuring effective text and table highlighting.
         </li>
       </ul>
     ),
   },
+  // {
+  //   image: beamlab,
+  //   title: "Software Intern",
+  //   company: "Beam Lab",
+  //   date: "Jan -  Feb 2023",
+  //   description: <ul className="ul"></ul>,
+  // },
 
   {
     image: osd,
@@ -150,7 +163,7 @@ export const technicalData = [
   },
 ];
 
-export const experienceData = [
+export const volunteeringData = [
   {
     image: gce,
     title: "GitHub Campus Expert",
@@ -175,13 +188,16 @@ export const experienceData = [
     image: zerone,
     title: "Editor-in-Chief",
     company: "The Zerone",
-    date: "June 2023 - Present",
+    date: "June 2023 - March 2024",
     description: (
       <ul className="ul">
         <li>
           <b>Editor-in-Chief&emsp;</b>
           |&emsp;<button>The Zerone 2024</button>
           <br />
+          Led the team in producing the 14th issue of The Zerone Magazine.
+          Organized and executed a writing competition and various activities
+          throughout the year.
         </li>
         <li>
           <b>Interview Head&emsp;</b>
@@ -206,17 +222,7 @@ export const experienceData = [
       </ul>
     ),
   },
-  {
-    image: pg,
-    title: "Technical Manager",
-    company: "Pulchowk Girls",
-    date: "Jun 2022 - Jun 2023",
-    description: (
-      <ul className="ul">
-        <li>Manage technical aspects and design posters of the events.</li>
-      </ul>
-    ),
-  },
+
   {
     image: Experience3,
     title: "Instructor",
@@ -224,6 +230,23 @@ export const experienceData = [
     date: "",
     description: (
       <ul className="ul">
+        <li>
+          <b>Girls to Code, Mentor&emsp;</b>
+          |&emsp;<button>Dec 29 - 31, 2023</button>
+          <br />
+          Mentored the participants during the 3-day workshop on ReactJS.
+        </li>
+        <li>
+          <b>Children in Technology&emsp;</b>
+          |&emsp;<button>Nov 24 - 28, 2023</button>
+          <br />
+          <a
+            href="https://medium.com/zerone-magazine/children-in-technology-dawn-in-the-eastern-plains-f9b3d0457ca0"
+            target="_blank"
+          >
+            <u>Blog</u>
+          </a>
+        </li>
         <li>
           <b>RoboCamp&emsp;</b>
           |&emsp;<button>July 16 - 22, 2023</button>
@@ -253,6 +276,17 @@ export const experienceData = [
           for Disabled Children Assistance (CDCA), Dhanyawaad, and Tara Namaste
           Orphanage.
         </li>
+      </ul>
+    ),
+  },
+  {
+    image: pg,
+    title: "Technical Manager",
+    company: "Pulchowk Girls",
+    date: "Jun 2022 - Jun 2023",
+    description: (
+      <ul className="ul">
+        <li>Manage technical aspects and design posters of the events.</li>
       </ul>
     ),
   },
@@ -383,7 +417,7 @@ export const scholarshipData = [
 export const educationData = [
   {
     image: tu,
-    title: "Tribhuvan Universtiy, Pulchowk Campus",
+    title: "Tribhuvan University, Pulchowk Campus",
     company: "Bachelor in Computer Engineering ",
     date: " | 2019-2024",
     description: "",

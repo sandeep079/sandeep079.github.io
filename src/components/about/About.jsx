@@ -92,7 +92,7 @@ const About = () => {
             <br />
             When I'm not travelling to new places or binge-watching my favorite
             shows, you'll catch me getting lost in a book or putting my artistic
-            skills to the test with some painting.🖌️
+            skills to the test with some painting.
             {/* <br />
             <br /> */}
           </p>

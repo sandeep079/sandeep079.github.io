@@ -4,8 +4,17 @@ import Image3 from "../../assets/blog3.png";
 import Image4 from "../../assets/blog4.png";
 import Image5 from "../../assets/blog5.png";
 import Image6 from "../../assets/blog6.png";
+import Image7 from "../../assets/cit.jpg";
 
 export const Data = [
+  {
+    id: 7,
+    image: Image7,
+    title: "Children in Technology: Dawn in The Eastern Plains",
+    link: "https://medium.com/zerone-magazine/children-in-technology-dawn-in-the-eastern-plains-f9b3d0457ca0",
+    description:
+      "As we entered the school, a hum of curiosity echoed off the yellow walls, decorated with lively paintings...",
+  },
   {
     id: 6,
     image: Image6,

@@ -1,7 +1,7 @@
 import "./experience.css";
 import {
-  technicalData,
   experienceData,
+  volunteeringData,
   scholarshipData,
   educationData,
 } from "./Data";
@@ -15,41 +15,47 @@ const Experience = () => {
     const timer = setTimeout(() => {
       setLetterClass("text-animate-hover");
     }, 3000);
+
+    return () => clearTimeout(timer);
   }, []);
 
   const [toggleState, setToggleState] = useState(1);
+  const [expandedIndex, setExpandedIndex] = useState(null);
 
   const toggleTab = (index) => {
     setToggleState(index);
   };
 
-  // toggle
-  const descriptionContent = document.getElementsByClassName(
-      "journey__description"
-    ),
-    descriptionHeader = document.querySelectorAll(".journey__data");
+  const activeExpand = (index) => {
+    setExpandedIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
 
-  function activeExpand() {
-    if (this.nextSibling.className) {
-      let itemClass = this.nextSibling.className;
-
-      for (let i = 0; i < descriptionContent.length; i++) {
-        descriptionContent[i].className =
-          "journey__description description__close";
-      }
-      if (itemClass === "journey__description description__close") {
-        this.nextSibling.className = "journey__description description__open";
-      }
-      if (itemClass === "journey__description description__open") {
-        this.nextSibling.className = "journey__description description__open";
-      }
-    }
-  }
-
-  descriptionHeader.forEach((element) => {
-    element.addEventListener("click", activeExpand);
-  });
-
+  const renderData = (data) => {
+    return data.map((item, index) => (
+      <div key={index} className="journey__item">
+        <div className="journey__data" onClick={() => activeExpand(index)}>
+          <img src={item.image} alt="" className="journey__img" />
+          <div className="journey__text-box">
+            <h3 className="journey__title">{item.title}</h3>
+            <h4 className="journey__company">{item.company}</h4>
+            <div className="journey__date">{item.date}</div>
+          </div>
+          <i
+            className={`uil  ${
+              expandedIndex === index ? "uil-angle-up" : "uil-angle-down"
+            } expand__icon`}
+          ></i>
+        </div>
+        <span
+          className={`journey__description ${
+            expandedIndex === index ? "description__open" : "description__close"
+          }`}
+        >
+          {item.description}
+        </span>
+      </div>
+    ));
+  };
   return (
     <section className="journey section" id="experience">
       <h2 className="section__title">
@@ -147,24 +153,7 @@ const Experience = () => {
                 : "journey__content"
             }
           >
-            {technicalData.map((item) => {
-              return (
-                <>
-                  <div className="journey__data">
-                    <img src={item.image} alt="" className="journey__img" />
-                    <div className="journey__text-box">
-                      <h3 className="journey__title">{item.title}</h3>
-                      <h4 className="journey__company">{item.company}</h4>
-                      <div className="journey__date">{item.date}</div>
-                    </div>
-                    <i className="uil uil-angle-down expand__icon"></i>
-                  </div>
-                  <span className="journey__description">
-                    {item.description}
-                  </span>
-                </>
-              );
-            })}
+            {renderData(experienceData)}
           </div>
 
           <div
@@ -174,22 +163,7 @@ const Experience = () => {
                 : "journey__content"
             }
           >
-            {experienceData.map((item) => {
-              return (
-                <>
-                  <div className="journey__data">
-                    <img src={item.image} alt="" className="journey__img" />
-                    <div className="journey__text-box">
-                      <h3 className="journey__title">{item.title}</h3>
-                      <h4 className="journey__company">{item.company}</h4>
-                      <div className="journey__date">{item.date}</div>
-                    </div>
-                    <i className="uil uil-angle-down expand__icon"></i>
-                  </div>
-                  <div className="journey__description">{item.description}</div>
-                </>
-              );
-            })}
+            {renderData(volunteeringData)}
           </div>
 
           <div
