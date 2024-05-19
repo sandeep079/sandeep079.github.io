@@ -31,7 +31,7 @@ const About = () => {
     };
 
     p.draw = () => {
-      p.strokeWeight(55);
+      p.strokeWeight(110);
       if (p.mouseIsPressed === true) {
         p.line(p.mouseX, p.mouseY, p.pmouseX, p.pmouseY);
       }
@@ -82,12 +82,13 @@ const About = () => {
 
         <div className="about__data">
           <p className="about__description" id="canvas-container">
+            {/* <p className="about__description"> */}
             I am a Computer Engineering Undergrad at Tribhuvan University,
-            Pulchowk Campus. I am exploring and learning various fields of tech.
-            I also enjoy being a part of community events. With this passion for
-            fostering communities, I am currently serving as a GitHub Campus
-            Expert and the Editor in Chief of The Zerone, the annual tech
-            magazine of Pulchowk Campus. <br />
+            Pulchowk Campus, interested in Natural Language processing and
+            Machine Learning. I also enjoy being a part of community events.
+            With this passion for fostering communities, I am currently serving
+            as a GitHub Campus Expert and the Editor in Chief of The Zerone, the
+            annual tech magazine of Pulchowk Campus. <br />
             <br />
             When I'm not travelling to new places or binge-watching my favorite
             shows, you'll catch me getting lost in a book or putting my artistic
