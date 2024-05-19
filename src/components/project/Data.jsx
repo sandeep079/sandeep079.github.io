@@ -6,9 +6,20 @@ import sathi from "../../assets/sathi.png";
 import maitrika from "../../assets/maitrika.png";
 import sahayatri from "../../assets/sahayatri.png";
 import newsly from "../../assets/newsly.png";
-import falldetection from "../../assets/falldetection.png";
+import falldetection from "../../assets/falldetection-project.png";
+import majorproject from "../../assets/majorproject.png";
 
 export const Data = [
+  {
+    image: majorproject,
+    title: "Extractive Nepali Question Answering System",
+    category: "",
+    link: "https://github.com/suban244/FallDetection",
+    demo: "",
+    description:
+      "Developed web app and browser extension for Extractive Nepali Question Answering, finetuning muril-base-cased model using SQuAD dataset. We employed different translation methods to create dataset of Indo Aryan languages, annotated 500 Nepali QA pairs, evaluated on XQuAD dataset and obtained an exact match of 60.5 and F1 Score of 76.89.",
+    stack: ["Pytorch", "React", "TypeScript", "FastAPI"],
+  },
   {
     image: falldetection,
     title: "Fall Detection Device For Elderly",
@@ -16,7 +27,7 @@ export const Data = [
     link: "https://github.com/suban244/FallDetection",
     demo: "",
     description:
-      "A real-time fall detection wearable for elderly that alerts emergency contacts if a fall is detected or help is needed. We use an IMU sensor to sense the motion, LSTM and CNN model to classify fall and GSM module to send emergency message to provided contacts.",
+      "A real-time fall detection wearable for elderly that alerts emergency contacts if a fall is detected or help is needed. We use an IMU sensor to sense the motion, LSTM model to classify fall and GSM module to send emergency message to provided contacts.",
     stack: [
       "MPU 6050",
       "Raspberry Pi Pico",
