@@ -14,7 +14,7 @@ export const Data = [
     image: majorproject,
     title: "Extractive Nepali Question Answering System",
     category: "",
-    link: "https://github.com/suban244/FallDetection",
+    link: "https://github.com/Yunika-Bajracharya/Extractive-Nepali-QA",
     demo: "",
     description:
       "Developed web app and browser extension for Extractive Nepali Question Answering, finetuning muril-base-cased model using SQuAD dataset. We employed different translation methods to create dataset of Indo Aryan languages, annotated 500 Nepali QA pairs, evaluated on XQuAD dataset and obtained an exact match of 60.5 and F1 Score of 76.89.",
