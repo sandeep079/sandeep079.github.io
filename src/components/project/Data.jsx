@@ -8,6 +8,7 @@ import sahayatri from "../../assets/sahayatri.png";
 import newsly from "../../assets/newsly.png";
 import falldetection from "../../assets/falldetection-project.png";
 import majorproject from "../../assets/majorproject.png";
+import niti from "../../assets/niti.png";
 
 export const Data = [
   {
@@ -19,6 +20,30 @@ export const Data = [
     description:
       "Developed web app and browser extension for Extractive Nepali Question Answering, finetuning muril-base-cased model using SQuAD dataset. We employed different translation methods to create dataset of Indo Aryan languages, annotated 500 Nepali QA pairs, evaluated on XQuAD dataset and obtained an exact match of 60.5 and F1 Score of 76.89.",
     stack: ["Pytorch", "React", "TypeScript", "FastAPI"],
+  },
+  {
+    image: niti,
+    title: "Niti - Legal Chatbot",
+    category: "",
+    link: "https://github.com/Yunika-Bajracharya/Niti-Legal-Semantic-Search",
+    demo: "https://youtu.be/hqYp7NOrMAI?feature=shared",
+    description: (
+      <p>
+        Lawyers, law, CA students spend a lot of time searching multiple legal
+        documents every day to find a specific answer. Our aim is to help them
+        search through legal information quickly so they have more time for
+        legal analysis, strategy development, and decision making. This will
+        also be helpful for general public to get easier access to legal
+        information. <br />
+        <br />
+        One can ask legal queries, our system will search for your answers
+        through the legal documents, extract the answer as it is, and reply back
+        to the user, also providing the link to the document where the law
+        resides.
+      </p>
+    ),
+
+    stack: ["Pytorch", "ReactJS", "TypeScript", "FastAPI", "Redis"],
   },
   {
     image: falldetection,

@@ -20,8 +20,25 @@ import hackadev from "../../assets/HackaDev.jpeg";
 import gce from "../../assets/gce.png";
 import beamlab from "../../assets/beamlab.jpeg";
 import naamche from "../../assets/naamche.png";
+import reg1 from "../../assets/reg1.jpg";
+import naamii from "../../assets/naamii_logo.svg";
 
 export const experienceData = [
+  {
+    image: reg1,
+    title: "Machine Learning Engineer",
+    company: "REG-1",
+    date: "Jun 2024 - Present",
+    description: (
+      <ul className="ul">
+        <li>
+          Developing AI solutions at REG-1, including designing data pipelines,
+          training, finetuning LLMs, optimizing data extraction and processing
+          for regulatory documents, semantic search capabilities.
+        </li>
+      </ul>
+    ),
+  },
   {
     image: naamche,
     title: "Software Engineering Intern",
@@ -48,7 +65,26 @@ export const experienceData = [
   //   date: "Jan -  Feb 2023",
   //   description: <ul className="ul"></ul>,
   // },
-
+  {
+    image: naamii,
+    title: "4th Annual Nepal Al School (ANAIS), 2023",
+    company:
+      "NAAMII - Nepal Applied Mathematics and Informatics Institute for research",
+    date: "May 22 - Jun 1, 2023",
+    description: (
+      <ul className="ul">
+        Participated in the 10-day AI School that covered wide range of AI
+        topics, lectures, lab sessions, along with project and professional
+        development sessions.{" "}
+        <a
+          href="https://drive.google.com/file/d/1BE49r-Iub7eA7q5zqbQxnzlcbDMVf_P7/view"
+          target="_blank"
+        >
+          Certificate
+        </a>
+      </ul>
+    ),
+  },
   {
     image: osd,
     title: "Open Source Day Mentor, Participant",
@@ -178,9 +214,10 @@ export const volunteeringData = [
           href="https://githubcampus.expert/Yunika-Bajracharya/"
           target="_blank"
         >
-          Profile
+          Profile.
         </a>
-        .
+        <br />
+        <small> Mentored Campus Expert Trainee - Aug 2023 Batch</small>
       </p>
     ),
   },
@@ -194,10 +231,16 @@ export const volunteeringData = [
         <li>
           <b>Editor-in-Chief&emsp;</b>
           |&emsp;<button>The Zerone 2024</button>
+          <br />➯ Led the team in producing the 14th issue of{" "}
+          <a href="https://www.instagram.com/thezeronemag/" target="_blank">
+            The Zerone Magazine
+          </a>
+          , the annual undergrad tech magazine at IOE, Pulchowk Campus. <br />➯
+          Introducted a new chapter, <i>Zerone Scholar</i>, showcasing student
+          research in Electronics, Computer, and Electrical Engineering.
+          <br />➯ Organized article writing competition and interview series
+          with tech professionals in Nepal.
           <br />
-          Led the team in producing the 14th issue of The Zerone Magazine.
-          Organized and executed a writing competition and various activities
-          throughout the year.
         </li>
         <li>
           <b>Interview Head&emsp;</b>
@@ -366,7 +409,7 @@ export const scholarshipData = [
   {
     image: hackadev,
     title: "HackaDev - AI for Impact Winner",
-    company: "DiyoAI",
+    company: "NAAMII, DiyoAI, UNDP Accelerator Lab",
     date: "May 22 - Jun 1, 2023",
     description: "",
   },
@@ -430,7 +473,7 @@ export const educationData = [
     description: (
       <ul>
         <li>&#x2B29; President, KMC Art Club 2018-19</li>
-        <li>&#x2B29; Winner, KMC Annual Art Competition 2019</li>
+        {/* <li>&#x2B29; Winner, KMC Annual Art Competition 2019</li> */}
       </ul>
     ),
   },
