@@ -277,12 +277,19 @@ export const volunteeringData = [
           <b>Girls to Code, Mentor&emsp;</b>
           |&emsp;<button>Dec 29 - 31, 2023</button>
           <br />
-          Mentored the participants during the 3-day workshop on ReactJS.
+          Mentored the participants during the 3-day workshop on Front-end
+          Development with ReactJS.
         </li>
         <li>
           <b>Children in Technology&emsp;</b>
           |&emsp;<button>Nov 24 - 28, 2023</button>
           <br />
+          With a team of 13, we visited the easternmost part of Nepal to raise
+          awareness on essential technology topics, including hardware,
+          software, internet safety, and cybercrime. We conducted the sessions
+          in 13 government schools across Koshi and Madesh Pradesh, covering
+          five districts: Dharan, Biratnagar, Itahari, Inaruwa, and Janakpur.{" "}
+          <tab></tab>
           <a
             href="https://medium.com/zerone-magazine/children-in-technology-dawn-in-the-eastern-plains-f9b3d0457ca0"
             target="_blank"
