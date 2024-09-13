@@ -8,7 +8,7 @@ import six from "../../assets/6.png";
 // import resumeYunika from "../../assets/resumeYunika.pdf";
 import React, { useState, useEffect } from "react";
 import AnimatedLetters from "../animatedLetters/AnimatedLetters";
-import p5 from "p5";
+// import p5 from "p5";
 
 const About = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -19,33 +19,33 @@ const About = () => {
     }, 3000);
   }, []);
 
-  let sketch = (p) => {
-    p.setup = () => {
-      let canvasContainer = p.select("#canvas-container");
-      let canvas = p.createCanvas(
-        canvasContainer.width,
-        canvasContainer.height
-      );
-      canvas.position = (0, 0);
-      canvas.parent("canvas-container");
-    };
+  // let sketch = (p) => {
+  //   p.setup = () => {
+  //     let canvasContainer = p.select("#canvas-container");
+  //     let canvas = p.createCanvas(
+  //       canvasContainer.width,
+  //       canvasContainer.height
+  //     );
+  //     canvas.position = (0, 0);
+  //     canvas.parent("canvas-container");
+  //   };
 
-    p.draw = () => {
-      p.strokeWeight(110);
-      if (p.mouseIsPressed === true) {
-        p.line(p.mouseX, p.mouseY, p.pmouseX, p.pmouseY);
-      }
-    };
+  //   p.draw = () => {
+  //     p.strokeWeight(110);
+  //     if (p.mouseIsPressed === true) {
+  //       p.line(p.mouseX, p.mouseY, p.pmouseX, p.pmouseY);
+  //     }
+  //   };
 
-    p.windowResized = () => {
-      let canvasContainer = p.select("#canvas-container");
-      p.resizeCanvas(canvasContainer.width, canvasContainer.height);
-    };
-  };
+  //   p.windowResized = () => {
+  //     let canvasContainer = p.select("#canvas-container");
+  //     p.resizeCanvas(canvasContainer.width, canvasContainer.height);
+  //   };
+  // };
 
-  let myP5 = new p5(sketch);
+  // let myP5 = new p5(sketch);
   return (
-    <section className="about section" id="about" draggable="false">
+    <section className="about section" id="about">
       <h2 className="section__title about__title">
         <AnimatedLetters
           letterClass={letterClass}
@@ -81,8 +81,8 @@ const About = () => {
         </div>
 
         <div className="about__data">
-          <p className="about__description" id="canvas-container">
-            {/* <p className="about__description"> */}
+          {/* <p className="about__description" id="canvas-container"> */}
+          <p className="about__description">
             I am a Computer Engineering Undergrad at Tribhuvan University,
             Pulchowk Campus, interested in Natural Language processing and
             Machine Learning. I also enjoy being a part of community events.

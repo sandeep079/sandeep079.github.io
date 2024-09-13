@@ -20,18 +20,18 @@
   position: relative;
 }
 
-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background: #e8e2e2;
-  opacity: 0.4;
-  border-radius: 30px;
-  z-index: 2;
-  mix-blend-mode: screen;
-  cursor: url("../../assets/brush.png") 2 2, auto;
-}
+// canvas {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: 1;
+//   background: #e8e2e2;
+//   opacity: 0.4;
+//   border-radius: 30px;
+//   z-index: 2;
+//   mix-blend-mode: screen;
+//   cursor: url("../../assets/brush.png") 2 2, auto;
+// }
 
 .stage-cube-cont {
   width: 350px;
