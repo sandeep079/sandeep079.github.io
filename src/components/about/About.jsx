@@ -83,18 +83,17 @@ const About = () => {
         <div className="about__data">
           {/* <p className="about__description" id="canvas-container"> */}
           <p className="about__description">
-            I am a Computer Engineering Undergrad at Tribhuvan University,
-            Pulchowk Campus, interested in Natural Language processing and
-            Machine Learning. I also enjoy being a part of community events.
-            With this passion for fostering communities, I am currently serving
-            as a GitHub Campus Expert and the Editor in Chief of The Zerone, the
-            annual tech magazine of Pulchowk Campus. <br />
             <br />
-            When I'm not travelling to new places or binge-watching my favorite
-            shows, you'll catch me getting lost in a book or putting my artistic
-            skills to the test with some painting.
-            {/* <br />
-            <br /> */}
+            I'm a Machine Learning Engineer at REG-1, focusing on Natural
+            Language Processing. I recently graduated in Computer Engineering
+            from Tribhuvan University, Pulchowk Campus. Alongside my technical
+            projects, I also love organizing and participating in community
+            events.
+            <br />
+            <br />
+            Apart from that, you might also find me burying my nose in a
+            book—quite literally (a big fan of bibliosmia here) or putting my
+            artistic skills to test with some painting.
           </p>
           {/* <a download="" href={resumeYunika} className="button button--flex button-about">
               Download Resume

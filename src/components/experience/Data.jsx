@@ -236,7 +236,7 @@ export const volunteeringData = [
             The Zerone Magazine
           </a>
           , the annual undergrad tech magazine at IOE, Pulchowk Campus. <br />➯
-          Introducted a new chapter, <i>Zerone Scholar</i>, showcasing student
+          Introduced a new chapter, <i>Zerone Scholar</i>, showcasing student
           research in Electronics, Computer, and Electrical Engineering.
           <br />➯ Organized article writing competition and interview series
           with tech professionals in Nepal.

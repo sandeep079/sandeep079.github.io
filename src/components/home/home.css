@@ -219,15 +219,15 @@
 }
 
 .home__img {
-  background: url(../../assets/profile.jpg);
+  background: url(../../assets/profile.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   box-shadow: inset 1px 1px 1px 5px rgb(255 255 255 / 30%);
   order: 1;
   justify-self: center;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 100%;
   /* animation: profile__animate 8s ease-in-out infinite 1s; */
 }
