@@ -5,6 +5,8 @@ import three from "../../assets/3.png";
 import four from "../../assets/4.png";
 import five from "../../assets/5.png";
 import six from "../../assets/6.png";
+import name_newari from "../../assets/newari-name.png";
+
 // import resumeYunika from "../../assets/resumeYunika.pdf";
 import React, { useState, useEffect } from "react";
 import AnimatedLetters from "../animatedLetters/AnimatedLetters";
@@ -54,7 +56,14 @@ const About = () => {
         />
       </h2>
 
-      <span className="section__subtitle about__subtitle">My Introduction</span>
+      <span className="section__subtitle about__subtitle">
+        {" "}
+        <img
+          src={name_newari}
+          alt="My Introduction"
+          className="about_name_newari"
+        />
+      </span>
 
       <div className="about__container container grid">
         <div className="stage-cube-cont">
