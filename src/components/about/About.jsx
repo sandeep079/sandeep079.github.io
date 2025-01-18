@@ -5,7 +5,7 @@ import three from "../../assets/3.png";
 import four from "../../assets/4.png";
 import five from "../../assets/5.png";
 import six from "../../assets/6.png";
-import name_newari from "../../assets/newari-name.png";
+import name_newari from "../../assets/ranjana-name.png";
 
 // import resumeYunika from "../../assets/resumeYunika.pdf";
 import React, { useState, useEffect } from "react";
@@ -94,15 +94,16 @@ const About = () => {
           <p className="about__description">
             <br />
             I'm a Machine Learning Engineer at REG-1, focusing on Natural
-            Language Processing. I recently graduated in Computer Engineering
-            from Tribhuvan University, Pulchowk Campus. Alongside my technical
-            projects, I also love organizing and participating in community
-            events.
+            Language Processing and Generative AI. I recently graduated in
+            Computer Engineering from Tribhuvan University, Pulchowk Campus. I'm
+            passionate about building ML solutions and exploring the cool ideas
+            behind them! Alongside my technical projects, I also love organizing
+            and participating in community events.
             <br />
             <br />
             Apart from that, you might also find me burying my nose in a
-            book—quite literally (a big fan of bibliosmia here) or putting my
-            artistic skills to test with some painting.
+            book—quite literally or putting my artistic skills to test with some
+            painting.
           </p>
           {/* <a download="" href={resumeYunika} className="button button--flex button-about">
               Download Resume

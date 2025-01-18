@@ -4,6 +4,13 @@
   margin-left: auto;
 }
 
+.img__subtitle {
+  margin-top: -5px;
+  width: 100px;
+  opacity: 0.5;
+  margin-bottom: -60px;
+}
+
 .journey__tabs {
   display: flex;
   justify-content: center;

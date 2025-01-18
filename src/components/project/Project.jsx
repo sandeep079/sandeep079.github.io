@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Data } from "./Data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AnimatedLetters from "../animatedLetters/AnimatedLetters";
+import ranjana_projects from "../../assets/ranjana-projects.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -30,7 +31,9 @@ const Project = () => {
           idx={15}
         />
       </h2>
-      {/* <span className="section__subtitle"></span> */}
+      <span className="section__subtitle">
+        <img src={ranjana_projects} alt="" className="project__img__subtitle" />
+      </span>
       <br />
       <Swiper
         className="blog__container project__container"

@@ -3,6 +3,7 @@
 }
 
 .blog__card {
+  margin-top: 20px;
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.5rem 2rem;
@@ -71,6 +72,14 @@
 
 .blog__name:hover {
   color: var(--title-color-dark);
+}
+
+.blog_img__subtitle {
+  margin: 2px solid red;
+  margin-top: 5px;
+  width: 110px;
+  opacity: 0.5;
+  margin-bottom: -50px;
 }
 
 .blog__description {

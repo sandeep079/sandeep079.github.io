@@ -7,6 +7,7 @@ import {
 } from "./Data";
 import React, { useState, useEffect } from "react";
 import AnimatedLetters from "../animatedLetters/AnimatedLetters";
+import ranjana_experience from "../../assets/ranjana-experience.png";
 
 const Experience = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -65,7 +66,9 @@ const Experience = () => {
           idx={15}
         />
       </h2>
-      <span className="section__subtitle"></span>
+      <span className="section__subtitle">
+        <img src={ranjana_experience} alt="" className="img__subtitle" />
+      </span>
 
       <div className="journey__container container">
         <div className="journey__tabs">

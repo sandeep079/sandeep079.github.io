@@ -32,9 +32,13 @@ export const experienceData = [
     description: (
       <ul className="ul">
         <li>
-          Developing AI solutions at REG-1, including designing data pipelines,
-          training, finetuning LLMs, optimizing data extraction and processing
-          for regulatory documents, semantic search capabilities.
+          Implement and integrate RAG for various types of legal documents,
+          finetune LLM and NLP models with custom data, and deploy with Azure
+          Machine Learning.
+        </li>
+        <li>
+          Design data pipelines, optimize data extraction and processing for
+          regulatory documents.
         </li>
       </ul>
     ),

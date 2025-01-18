@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Data } from "./Data";
 import AnimatedLetters from "../animatedLetters/AnimatedLetters";
 import { Swiper, SwiperSlide } from "swiper/react";
+import ranjana_writings from "../../assets/ranjana-writings.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -30,7 +31,9 @@ const Blog = () => {
           idx={15}
         />
       </h2>
-      <span className="section__subtitle"></span>
+      <span className="section__subtitle">
+        <img src={ranjana_writings} alt="" className="blog_img__subtitle" />
+      </span>
 
       <Swiper
         className="blog__container"

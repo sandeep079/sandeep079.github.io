@@ -2,6 +2,7 @@ import "./contact.css";
 import React, { useState, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import AnimatedLetters from "../animatedLetters/AnimatedLetters";
+import ranjana_message from "../../assets/ranjana-message.png";
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -79,7 +80,9 @@ const Contact = () => {
           idx={15}
         />
       </h2>
-      <span className="section__subtitle">Get in touch</span>
+      <span className="section__subtitle">
+        <img src={ranjana_message} alt="" className="contact__img__subtitle" />
+      </span>
 
       <div className="contact__container container grid">
         <div className="cup__container">
