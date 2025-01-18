@@ -32,7 +32,7 @@ const Blog = () => {
         />
       </h2>
       <span className="section__subtitle">
-        <img src={ranjana_writings} alt="" className="blog_img__subtitle" />
+        <img src={ranjana_writings} alt="" className="blog__img__subtitle" />
       </span>
 
       <Swiper

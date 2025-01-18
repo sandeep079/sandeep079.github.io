@@ -74,9 +74,8 @@
   color: var(--title-color-dark);
 }
 
-.blog_img__subtitle {
-  margin: 2px solid red;
-  margin-top: 5px;
+.blog__img__subtitle {
+  margin-top: 10px;
   width: 110px;
   opacity: 0.5;
   margin-bottom: -50px;
