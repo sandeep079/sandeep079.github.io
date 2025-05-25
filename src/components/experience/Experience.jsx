@@ -62,7 +62,7 @@ const Experience = () => {
       <h2 className="section__title">
         <AnimatedLetters
           letterClass={letterClass}
-          strArray={["M", "y", " ", "J", "o", "u", "r", "n", "e", "y"]}
+          strArray={["e", "x", "p", "e", "r", "i", "e", "n", "c", "e"]}
           idx={15}
         />
       </h2>

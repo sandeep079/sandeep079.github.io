@@ -14,13 +14,13 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">
+        {/* <h1 className="footer__title">
           <AnimatedLetters
             letterClass={letterClass}
             strArray={["यु", "नि", "का", " ", "ब", "ज्रा", "चा", "र्य"]}
             idx={15}
           />
-        </h1>
+        </h1> */}
 
         <ul className="footer__list">
           <li>
@@ -106,7 +106,11 @@ const Footer = () => {
           </a>
         </div>
 
-        <span className="footer__copy">&#169; 2023 Yunika Bajracharya</span>
+        <span className="footer__copy">&#169;2025 <AnimatedLetters
+            letterClass={letterClass}
+            strArray={[" ", "यु", "नि", "का", " ", "ब", "ज्रा", "चा", "र्य"]}
+            idx={15}
+          /></span>
       </div>
     </footer>
   );

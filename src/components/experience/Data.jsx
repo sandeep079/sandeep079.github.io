@@ -98,7 +98,7 @@ export const experienceData = [
       <ul className="ul">
         <li>
           <b>Open Source Day 2021 (Mentor)&emsp;</b>
-          |&emsp;<button>Jul, 2021</button>
+          <button>Jul, 2021</button>
           <br />
           Mentored participants on using git, GitHub, setting up the project{" "}
           <a
@@ -111,7 +111,7 @@ export const experienceData = [
         </li>
         <li>
           <b>Open Source Day 2022 (GHC Scholar)&emsp;</b>
-          |&emsp;<button>Sep 16, 2022</button>
+          <button>Sep 16, 2022</button>
           <br />
           Contributed to{" "}
           <a href="https://github.com/numpy/numpy" target="_blank">
@@ -221,8 +221,40 @@ export const volunteeringData = [
           Profile.
         </a>
         <br />
-        <small> Mentored Campus Expert Trainee - Aug 2023 Batch</small>
+        <small> Mentored Campus Expert Trainee - Aug 2023, 2024 Batch</small>
       </p>
+    ),
+  },
+    {
+    image: gfd,
+    title: "Organizer",
+    company: "GitHub Field Day Nepal",
+    date: "2022, 2024",
+    description: (
+      <>
+        GitHub Field Day is an unconference for leaders of technical student
+        communities. Field day Nepal brings together 50 student leaders
+        from all provinces of Nepal representing 40+ tech communities.
+        <br />
+        <ul className="ul">
+        <li>
+          <b>Planning Lead&emsp;</b>
+          <button className="date__button">2024</button>
+          <br />Create timeline, plan D-Day, pre-event activities, social media post ideas, application form, selection, keynote speaker + agenda 
+          <br />
+        </li>
+        <li>
+          <b>Outreach and Communications Lead&emsp;</b>
+          <button  className="date__button">2022</button>
+          <br />
+          ‣ Reached out to 50+ tech communities, media channels and IT colleges
+            across the country.<br />
+          ‣ Responsible for communication with keynote speaker, campus experts
+            and participants.<br />
+          ‣ Moderated Group Discussions during the Field Day.<br />
+        </li>
+      </ul>
+      </>
     ),
   },
   {
@@ -234,34 +266,34 @@ export const volunteeringData = [
       <ul className="ul">
         <li>
           <b>Editor-in-Chief&emsp;</b>
-          |&emsp;<button>The Zerone 2024</button>
-          <br />➯ Led the team in producing the 14th issue of{" "}
+          <button className="date__button">The Zerone 2024</button>
+          <br />‣ Led the team in producing the 14th issue of{" "}
           <a href="https://www.instagram.com/thezeronemag/" target="_blank">
             The Zerone Magazine
           </a>
-          , the annual undergrad tech magazine at IOE, Pulchowk Campus. <br />➯
+          , the annual undergrad tech magazine at IOE, Pulchowk Campus. <br />‣
           Introduced a new chapter, <i>Zerone Scholar</i>, showcasing student
           research in Electronics, Computer, and Electrical Engineering.
-          <br />➯ Organized article writing competition and interview series
+          <br />‣ Organized article writing competition and interview series
           with tech professionals in Nepal.
           <br />
         </li>
         <li>
           <b>Interview Head&emsp;</b>
-          |&emsp;<button>The Zerone 2023</button>
+          <button className="date__button">The Zerone 2023</button>
           <br />
           Interviewed prominent tech professionals for the magazine.
         </li>
         <li>
           <b>Associate Editor&emsp;</b>
-          |&emsp;<button>The Zerone 2021</button>
+          <button className="date__button">The Zerone 2021</button>
           <br />
           Led the team for grammar-related social media posts, wrote and edited
           articles for the magazine.
         </li>
         <li>
           <b>Editor&emsp;</b>
-          |&emsp;<button>The Zerone 2020</button>
+          <button className="date__button">The Zerone 2020</button>
           <br />
           Wrote, edited articles for the magazine, writing competitions and
           designed posters for writing sessions.
@@ -279,14 +311,14 @@ export const volunteeringData = [
       <ul className="ul">
         <li>
           <b>Girls to Code, Mentor&emsp;</b>
-          |&emsp;<button>Dec 29 - 31, 2023</button>
+          <button>Dec 29 - 31, 2023</button>
           <br />
           Mentored the participants during the 3-day workshop on Front-end
           Development with ReactJS.
         </li>
         <li>
           <b>Children in Technology&emsp;</b>
-          |&emsp;<button>Nov 24 - 28, 2023</button>
+          <button>Nov 24 - 28, 2023</button>
           <br />
           With a team of 13, we visited the easternmost part of Nepal to raise
           awareness on essential technology topics, including hardware,
@@ -303,28 +335,28 @@ export const volunteeringData = [
         </li>
         <li>
           <b>RoboCamp&emsp;</b>
-          |&emsp;<button>July 16 - 22, 2023</button>
+          <button>July 16 - 22, 2023</button>
           <br />
           Mentored students at RoboCamp, organized by Robotics Club, IOE
           Pulchowk Campus.
         </li>
         <li>
           <b>Software Fellowship&emsp;</b>
-          |&emsp;<button>June 25, 2023</button>
+          <button>June 25, 2023</button>
           <br />
           Instructed students on Object Oriented Programming using Python during
           Software Fellowship, organized by LOCUS 2023.
         </li>
         <li>
           <b>Version Control System with Git&emsp;</b>
-          |&emsp;<button>Jul 12 - Jul 15, 2022</button>
+          <button>Jul 12 - Jul 15, 2022</button>
           <br />
           Instructed students on git and version control in a 4-day workshop
           organized by IT Club, Pulchowk.
         </li>
         <li>
           <b>Microsoft Bootcamp Trainer, Girls in Tech–Nepal&emsp;</b>
-          |&emsp;<button>Apr - Jun, 2022</button>
+          <button>Apr - Jun, 2022</button>
           <br />
           Instructor for Microsoft Office training given to students of Center
           for Disabled Children Assistance (CDCA), Dhanyawaad, and Tara Namaste
@@ -342,33 +374,6 @@ export const volunteeringData = [
       <ul className="ul">
         <li>Manage technical aspects and design posters of the events.</li>
       </ul>
-    ),
-  },
-  {
-    image: gfd,
-    title: "Communication and Outreach Lead",
-    company: "GitHub Field Day Nepal",
-    date: "Apr - Jun 2022",
-    description: (
-      <>
-        GitHub Field Day is an unconference for leaders of technical student
-        communities. Field day Nepal 2022 brought together 50 student leaders
-        from 12 cities representing 40+ tech communities.
-        <br />
-        <br />
-        <ul className="ul-small-gap">
-          <li>One of the organizers for the first GitHub Field Day Nepal.</li>
-          <li>
-            Reached out to 50+ tech communities, media channels and IT colleges
-            across the country.
-          </li>
-          <li>
-            Responsible for communication with keynote speaker, campus experts
-            and participants.
-          </li>
-          <li>Moderated Group Discussions during the Field Day.</li>
-        </ul>
-      </>
     ),
   },
   {

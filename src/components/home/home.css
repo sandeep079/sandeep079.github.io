@@ -223,14 +223,39 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: inset 1px 1px 1px 5px rgb(255 255 255 / 30%);
+  box-shadow: inset 1px 1px 1px 5px rgba(255, 255, 255, 0.3);
   order: 1;
   justify-self: center;
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
   /* animation: profile__animate 8s ease-in-out infinite 1s; */
 }
+
+.handwave {
+  width: 80px;
+  height: 80px;
+  transform-origin: bottom center; /* Pivot like a wrist */
+}
+
+/* Apply animation only on hover */
+.handwave:hover {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><text y="25" font-size="25">👋</text></svg>') 16 16, auto;
+  animation: handwave 3s ease-in-out;
+}
+
+/* Keyframes for waving motion */
+@keyframes handwave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
 
 .button {
   margin-top: 10px;
@@ -245,6 +270,7 @@
   background-color: var(--light-special-color);
   border-bottom: 3px solid var(--special-color);
   border-right: 3px solid var(--special-color);
+  color: var(--title-color-dark);
 }
 
 @keyframes profile__animate {

@@ -92,15 +92,19 @@
   padding: 15px;
   margin: 10px;
   box-shadow: 1px 1px 5px 1px rgb(233, 231, 240);
-  border-radius: 5px;
+  border-radius: 15px;
   align-items: center;
   position: relative;
 }
 
 .journey__img {
-  width: 45px;
-  height: 45px;
-  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  color: --var(--container-color);
+  opacity: 0.9;
+  box-shadow: 1px 1px 5px 1px rgb(233, 231, 240);
+  padding: 2px;
 }
 
 .journey__text-box {
@@ -170,6 +174,13 @@
 .education__description {
   margin-top: 10px;
   font-size: 1rem;
+}
+
+.date__button {
+  padding: 0 0.25rem;
+  background: var(--light-special-color);
+  border-radius: 4px;
+  color: var(--text-color);
 }
 
 @media screen and (max-width: 480px) {

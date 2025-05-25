@@ -10,15 +10,23 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
+
+  /* Backgrounds */
+  --body-color: #f8fefd; /* Creamy off-white */
+  --container-color: #ffffff;
+
+  /* Text */
   --title-color: hsl(var(--hue), var(--sat), 20%);
-  --special-color: #7843e6;
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
-  --light-special-color: rgb(242, 240, 246);
+  --title-color-light: #444;
+  --title-color-dark: hsl(var(--hue), var(--sat), 10%);
+  --text-color: hsl(var(--hue), var(--sat), 35%);
 
+  /* Special / Accent Colors */
+  --special-color: #28be9d; /* Teal base */
+  --special-color-lighter: #6dd6c1;
+  --special-color-darker: #078d70;
 
+  --light-special-color: #e4f9f4;
   /*========== Font and typography ==========*/
   /* --title-font: 'Sansita Swashed', cursive; */
   --body-font: 'Nunito', sans-serif;
@@ -54,6 +62,14 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+}
+
+a {
+  color: var(--special-color-darker);
+}
+
+a:hover {
+  color: var(--special-color);
 }
 
 /* Responsive typography */
@@ -127,7 +143,7 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--title-color-light);
 }
 
 .section__subtitle {

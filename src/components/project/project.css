@@ -1,13 +1,20 @@
 .project__container {
+  width: 750px;
   padding: 0 41px;
+  margin-top: 0px;
 }
 
 .project__card {
-  border-radius: 5px;
+  border-radius: 15px;
   /* min-height: 630px; */
   align-self: center;
-  margin-top: -120px;
-  padding-top: 100px;
+  /* margin-top: -120px; */
+  /* padding-top: 100px; */
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 5px 5px 5px var(--light-special-color);
 }
 
 .project__name {
@@ -67,12 +74,12 @@
   padding: 25px 25px;
   border-radius: 20%;
   /* border: 2px solid var(--special-color); */
-  color: rgb(78, 70, 151) !important;
+  color: var(--special-color) !important;
 }
 .swiper-pagination-bullet {
   width: 25px;
   height: 25px;
-  background-color: rgb(169, 155, 213) !important;
+  background-color: var(--special-color-lighter) !important;
 }
 .swiper-pagination {
   top: 95%;

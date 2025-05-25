@@ -27,7 +27,7 @@ const Blog = () => {
       <h2 className="section__title">
         <AnimatedLetters
           letterClass={letterClass}
-          strArray={["M", "y", " ", "B", "l", "o", "g", "s"]}
+          strArray={["m", "y", " ", "b", "l", "o", "g", "s"]}
           idx={15}
         />
       </h2>

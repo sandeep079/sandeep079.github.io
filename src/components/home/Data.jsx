@@ -1,27 +1,20 @@
 import React, { useState, useEffect } from "react";
 import LogoTitle from "../../assets/logoY.png";
+import HandWave from "../../assets/handwave.png";
+
 import AnimatedLetters from "../animatedLetters/AnimatedLetters";
 
 const Data = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
   const nameArray = [
+    " ",
+    "Y",
     "u",
     "n",
     "i",
     "k",
     "a",
-    " ",
-    "B",
-    "a",
-    "j",
-    "r",
-    "a",
-    "c",
-    "h",
-    "a",
-    "r",
-    "y",
-    "a",
+    " "
   ];
 
   useEffect(() => {
@@ -37,13 +30,15 @@ const Data = () => {
         <span className={`${letterClass} _12`}>i,</span> <tab />
         <span className={`${letterClass} _13`}>I</span>
         <span className={`${letterClass} _14`}>'m</span>
-        <br />
-        <img src={LogoTitle} className="logoY" />
+
+        {/* <img src={LogoTitle} className="logoY" /> */}
+
         <AnimatedLetters
           letterClass={letterClass}
           strArray={nameArray}
           idx={15}
         />
+        <img src={HandWave} className="handwave" />
       </h1>
 
       <p className="home__subtitle">Machine Learning Engineer</p>
@@ -52,7 +47,7 @@ const Data = () => {
             Computer Engineering Undergrad
         </p> */}
 
-      <a href="#contact" className="button button--flex home__button">
+      <a href="https://www.linkedin.com/in/yunikabajracharya/" target="_blank" className="button button--flex home__button">
         Say Hello!
         <svg
           class="button__icon"

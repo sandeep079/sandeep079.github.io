@@ -27,16 +27,15 @@ const Project = () => {
       <h2 className="section__title">
         <AnimatedLetters
           letterClass={letterClass}
-          strArray={["P", "r", "o", "j", "e", "c", "t", "s"]}
+          strArray={["p", "r", "o", "j", "e", "c", "t", "s"]}
           idx={15}
         />
       </h2>
       <span className="section__subtitle">
         <img src={ranjana_projects} alt="" className="project__img__subtitle" />
       </span>
-      <br />
       <Swiper
-        className="blog__container project__container"
+        className="project__container"
         // loop={true}
         // autoHeight={true}
         grabCursor={true}
@@ -56,9 +55,9 @@ const Project = () => {
         }}
         modules={[Navigation, Pagination]}
       >
-        {Data.map(({ id, image, title, stack, link, demo, description }) => {
+        {Data.map(({ id, image, title, stack, link, demo, paper, description }) => {
           return (
-            <SwiperSlide className="blog__card project__card">
+            <SwiperSlide className="project__card">
               <div className="image__section project-image__section">
                 <img src={image} alt="" className="project__img" />
               </div>
@@ -69,6 +68,11 @@ const Project = () => {
               })}
               <p className="project__description">{description}</p>
               <div>
+                <a href={paper} target="_blank">
+                  {paper ? (
+                    <button className="button project-button">Paper</button>
+                  ) : null}
+                </a>
                 <a href={link} target="_blank">
                   {link ? (
                     <button className="button project-button">GitHub</button>

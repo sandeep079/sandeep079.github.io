@@ -1,10 +1,10 @@
 import "./about.scss";
-import one from "../../assets/1.png";
-import two from "../../assets/2.png";
-import three from "../../assets/3.png";
-import four from "../../assets/4.png";
-import five from "../../assets/5.png";
-import six from "../../assets/6.png";
+import one from "../../assets/18.png";
+import two from "../../assets/19.png";
+import three from "../../assets/20.png";
+import four from "../../assets/21.png";
+import five from "../../assets/22.png";
+import six from "../../assets/23.png";
 import name_newari from "../../assets/ranjana-name.png";
 
 // import resumeYunika from "../../assets/resumeYunika.pdf";
@@ -51,7 +51,7 @@ const About = () => {
       <h2 className="section__title about__title">
         <AnimatedLetters
           letterClass={letterClass}
-          strArray={["A", "b", "o", "u", "t", " ", "M", "e"]}
+          strArray={["a", "b", "o", "u", "t", " ", "m", "e"]}
           idx={15}
         />
       </h2>
@@ -92,18 +92,10 @@ const About = () => {
         <div className="about__data">
           {/* <p className="about__description" id="canvas-container"> */}
           <p className="about__description">
-            <br />
-            I'm a Machine Learning Engineer at REG-1, focusing on Natural
-            Language Processing and Generative AI. I recently graduated in
-            Computer Engineering from Tribhuvan University, Pulchowk Campus. I'm
-            passionate about building ML solutions and exploring the cool ideas
-            behind them! Alongside my technical projects, I also love organizing
-            and participating in community events.
+            I'm currently working as a Machine Learning Engineer at REG-1, focusing on Natural Language Processing and Generative AI. I recently graduated in Computer Engineering from Pulchowk Campus, Tribhuvan University. I enjoy building ML solutions and exploring the cool ideas behind them! Alongside my technical projects, I also love organizing and participating in community events.
             <br />
             <br />
-            Apart from that, you might also find me burying my nose in a
-            book—quite literally or putting my artistic skills to test with some
-            painting.
+            When I'm not glued to a screen (rare, but it happens), you'll probably find me reading a book, painting something, or just going on long walks.
           </p>
           {/* <a download="" href={resumeYunika} className="button button--flex button-about">
               Download Resume

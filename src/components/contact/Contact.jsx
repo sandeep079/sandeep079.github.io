@@ -76,7 +76,7 @@ const Contact = () => {
       <h2 className="section__title contact__title">
         <AnimatedLetters
           letterClass={letterClass}
-          strArray={["C", "o", "n", "t", "a", "c", "t", " ", "M", "e"]}
+          strArray={["c", "o", "n", "t", "a", "c", "t", " ", "m", "e"]}
           idx={15}
         />
       </h2>
