@@ -1,7 +1,5 @@
 .project__container {
-  width: 750px;
   padding: 0 41px;
-  margin-top: 0px;
 }
 
 .project__card {
@@ -10,11 +8,6 @@
   align-self: center;
   /* margin-top: -120px; */
   /* padding-top: 100px; */
-  background-color: var(--container-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.5rem 2rem;
-  margin-bottom: 3rem;
-  box-shadow: 5px 5px 5px var(--light-special-color);
 }
 
 .project__name {

@@ -35,7 +35,7 @@ const Project = () => {
         <img src={ranjana_projects} alt="" className="project__img__subtitle" />
       </span>
       <Swiper
-        className="project__container"
+        className="blog__container project__container"
         // loop={true}
         // autoHeight={true}
         grabCursor={true}
@@ -57,7 +57,7 @@ const Project = () => {
       >
         {Data.map(({ id, image, title, stack, link, demo, paper, description }) => {
           return (
-            <SwiperSlide className="project__card">
+            <SwiperSlide className="blog__card project__card">
               <div className="image__section project-image__section">
                 <img src={image} alt="" className="project__img" />
               </div>
