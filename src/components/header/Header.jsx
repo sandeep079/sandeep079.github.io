@@ -18,12 +18,12 @@ const Header = () => {
                     <li className="nav__item">
                         <a href="#home" className="nav__link active-link">
                             <i className="uil uil-estate nav__icon"></i>                            
-                            Home
+                            home
                         </a>
                     </li>
                     <li className="nav__item">
                         <a href="#about" className="nav__link">
-                            <i className="uil uil-user nav__icon"></i>About
+                            <i className="uil uil-user nav__icon"></i>about
                         </a>
                     </li>
                     {/* <li className="nav__item">
@@ -33,24 +33,24 @@ const Header = () => {
                     </li> */}
                     <li className="nav__item">
                         <a href="#experience" className="nav__link">
-                            <i className="uil uil-scenery nav__icon"></i>Experience
+                            <i className="uil uil-scenery nav__icon"></i>experience
                         </a>
                     </li>
                     <li className="nav__item">
                         <a href="#project" className="nav__link">
-                            <i className="uil uil-scenery nav__icon"></i>Projects
+                            <i className="uil uil-scenery nav__icon"></i>projects
                         </a>
                     </li>
                     <li className="nav__item">
                         <a href="#blog" className="nav__link">
-                            <i className="uil uil-diary nav__icon"></i>Blog
+                            <i className="uil uil-diary nav__icon"></i>blog
                         </a>
                     </li>
-                    <li className="nav__item">
+                    {/* <li className="nav__item">
                         <a href="#contact" className="nav__link">
                             <i className="uil uil-message nav__icon"></i>Contact
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
                 
                 <i className="uil uil-times nav__close" onClick={() => {showMenu(!Toggle)}}></i>
