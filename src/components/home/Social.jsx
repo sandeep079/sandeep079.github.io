@@ -4,9 +4,14 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="mailto:bajracharya.yunika@gmail.com"
         className="home__social-icon noSvg"
-        target="_blank"
+        onClick={e => {
+          e.preventDefault();
+          const aboutSection = document.getElementById("about");
+          if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: "smooth" });
+          }
+        }}
       >
         <i className="uil uil-envelope"></i>
         {/* <img src="././assets/kmc.jpg" alt="" /> */}

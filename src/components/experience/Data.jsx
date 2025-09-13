@@ -22,6 +22,8 @@ import beamlab from "../../assets/beamlab.jpeg";
 import naamche from "../../assets/naamche.png";
 import reg1 from "../../assets/reg1.jpg";
 import naamii from "../../assets/naamii_logo.svg";
+import nabil_sse from "../../assets/nabil_sse.jpg";
+import unlockherfuture from "../../assets/unlockherfuture.jpeg";
 
 export const experienceData = [
   {
@@ -40,6 +42,17 @@ export const experienceData = [
           Design data pipelines, optimize data extraction and processing for
           regulatory documents.
         </li>
+      </ul>
+    ),
+  },
+    {
+    image: nabil_sse,
+    title: "Nabil School of Social Enterprenuership Fellow",
+    company: "Nabil Bank, TU School of Management",
+    date: "May 2025 - Present",
+    description: (
+      <ul className="ul">
+          Selected as one of the 20 fellows from across Nepal. Participating in sessions on <a href="https://medium.com/p/bd2217574777" target="__blank"> design thinking</a>, leadership, human resource management, branding, finance, budgeting, and social impact.
       </ul>
     ),
   },
@@ -225,36 +238,79 @@ export const volunteeringData = [
       </p>
     ),
   },
-    {
-    image: gfd,
-    title: "Organizer",
-    company: "GitHub Field Day Nepal",
-    date: "2022, 2024",
+  {
+    image: Experience3,
+    title: "Instructor, Speaker",
+    company: "Workshops & Traning Programs",
+    date: "",
     description: (
-      <>
-        GitHub Field Day is an unconference for leaders of technical student
-        communities. Field day Nepal brings together 50 student leaders
-        from all provinces of Nepal representing 40+ tech communities.
-        <br />
-        <ul className="ul">
+      <ul className="ul">
         <li>
-          <b>Planning Lead&emsp;</b>
-          <button className="date__button">2024</button>
-          <br />Create timeline, plan D-Day, pre-event activities, social media post ideas, application form, selection, keynote speaker + agenda 
+          <b>Ethics of AI: Balancing Innovation and Responsibility, Panelist&emsp;</b>
+          <button>Aug 21, 2025</button>
           <br />
+          Had the chance to discuss some important topics in AI Ethics in a panel discussion at Thames InnoWave 2025.
         </li>
         <li>
-          <b>Outreach and Communications Lead&emsp;</b>
-          <button  className="date__button">2022</button>
+          <b>Girls to Code 2024, Guest Speaker&emsp;</b>
+          <button>Jan 19, 2025</button>
           <br />
-          ‣ Reached out to 50+ tech communities, media channels and IT colleges
-            across the country.<br />
-          ‣ Responsible for communication with keynote speaker, campus experts
-            and participants.<br />
-          ‣ Moderated Group Discussions during the Field Day.<br />
+          Shared about getting started with Machine Learning, current industry trends in RAG and AI Agents, and resources with the participants.
+        </li>
+        <li>
+          <b>Girls to Code 2023, Mentor&emsp;</b>
+          <button>Dec 29 - 31, 2023</button>
+          <br />
+          Mentored the participants during the 3-day workshop on Front-end
+          Development with ReactJS.
+        </li>
+        <li>
+          <b>Children in Technology, Instructor&emsp;</b>
+          <button>Nov 24 - 28, 2023</button>
+          <br />
+          With a team of 13, we visited the easternmost part of Nepal to raise
+          awareness on essential technology topics, including hardware,
+          software, internet safety, and cybercrime. We conducted the sessions
+          in 13 government schools across Koshi and Madesh Pradesh, covering
+          five districts: Dharan, Biratnagar, Itahari, Inaruwa, and Janakpur.{" "}
+          <tab></tab>
+          <a
+            href="https://medium.com/zerone-magazine/children-in-technology-dawn-in-the-eastern-plains-f9b3d0457ca0"
+            target="_blank"
+          >
+            <u>Blog</u>
+          </a>
+        </li>
+        <li>
+          <b>RoboCamp, Mentor&emsp;</b>
+          <button>July 16 - 22, 2023</button>
+          <br />
+          Mentored students at RoboCamp, organized by Robotics Club, IOE
+          Pulchowk Campus.
+        </li>
+        <li>
+          <b>Software Fellowship, Instructor&emsp;</b>
+          <button>June 25, 2023</button>
+          <br />
+          Instructed students on Object Oriented Programming using Python during
+          Software Fellowship, organized by LOCUS 2023.
+        </li>
+        <li>
+          <b>Version Control System with Git, Instructor&emsp;</b>
+          <button>Jul 12 - Jul 15, 2022</button>
+          <br />
+          Instructed students on git and version control in a 4-day workshop
+          organized by IT Club, Pulchowk.
+        </li>
+        <li>
+          <b>Microsoft Bootcamp Trainer, Girls in Tech–Nepal&emsp;</b>
+          <button>Apr - Jun, 2022</button>
+          <br />
+          Instructor for Microsoft Office training given to students of Center
+          for Disabled Children Assistance (CDCA), Dhanyawaad, and Tara Namaste
+          Orphanage.
         </li>
       </ul>
-      </>
     ),
   },
   {
@@ -301,68 +357,36 @@ export const volunteeringData = [
       </ul>
     ),
   },
-
-  {
-    image: Experience3,
-    title: "Instructor",
-    company: "Workshops & Traning Programs",
-    date: "",
+    {
+    image: gfd,
+    title: "Organizer",
+    company: "GitHub Field Day Nepal",
+    date: "2022, 2024",
     description: (
-      <ul className="ul">
+      <>
+        GitHub Field Day is an unconference for leaders of technical student
+        communities. Field day Nepal brings together 50 student leaders
+        from all provinces of Nepal representing 40+ tech communities.
+        <br />
+        <ul className="ul">
         <li>
-          <b>Girls to Code, Mentor&emsp;</b>
-          <button>Dec 29 - 31, 2023</button>
+          <b>Planning Lead&emsp;</b>
+          <button className="date__button">2024</button>
+          <br />Create timeline, plan D-Day, pre-event activities, social media post ideas, application form, selection, keynote speaker + agenda 
           <br />
-          Mentored the participants during the 3-day workshop on Front-end
-          Development with ReactJS.
         </li>
         <li>
-          <b>Children in Technology&emsp;</b>
-          <button>Nov 24 - 28, 2023</button>
+          <b>Outreach and Communications Lead&emsp;</b>
+          <button  className="date__button">2022</button>
           <br />
-          With a team of 13, we visited the easternmost part of Nepal to raise
-          awareness on essential technology topics, including hardware,
-          software, internet safety, and cybercrime. We conducted the sessions
-          in 13 government schools across Koshi and Madesh Pradesh, covering
-          five districts: Dharan, Biratnagar, Itahari, Inaruwa, and Janakpur.{" "}
-          <tab></tab>
-          <a
-            href="https://medium.com/zerone-magazine/children-in-technology-dawn-in-the-eastern-plains-f9b3d0457ca0"
-            target="_blank"
-          >
-            <u>Blog</u>
-          </a>
-        </li>
-        <li>
-          <b>RoboCamp&emsp;</b>
-          <button>July 16 - 22, 2023</button>
-          <br />
-          Mentored students at RoboCamp, organized by Robotics Club, IOE
-          Pulchowk Campus.
-        </li>
-        <li>
-          <b>Software Fellowship&emsp;</b>
-          <button>June 25, 2023</button>
-          <br />
-          Instructed students on Object Oriented Programming using Python during
-          Software Fellowship, organized by LOCUS 2023.
-        </li>
-        <li>
-          <b>Version Control System with Git&emsp;</b>
-          <button>Jul 12 - Jul 15, 2022</button>
-          <br />
-          Instructed students on git and version control in a 4-day workshop
-          organized by IT Club, Pulchowk.
-        </li>
-        <li>
-          <b>Microsoft Bootcamp Trainer, Girls in Tech–Nepal&emsp;</b>
-          <button>Apr - Jun, 2022</button>
-          <br />
-          Instructor for Microsoft Office training given to students of Center
-          for Disabled Children Assistance (CDCA), Dhanyawaad, and Tara Namaste
-          Orphanage.
+          ‣ Reached out to 50+ tech communities, media channels and IT colleges
+            across the country.<br />
+          ‣ Responsible for communication with keynote speaker, campus experts
+            and participants.<br />
+          ‣ Moderated Group Discussions during the Field Day.<br />
         </li>
       </ul>
+      </>
     ),
   },
   {
@@ -422,6 +446,13 @@ export const volunteeringData = [
 ];
 
 export const scholarshipData = [
+  {
+    image: unlockherfuture,
+    title: "Unlock Her Future Prize 2025 - Semi Finalist",
+    company: "The Bicester Collection, Said Business School, University of Oxford",
+    date: "",
+    description: "Was selected as one of the 25 semifinalists from South Asia.",
+  },
   {
     image: hackadev,
     title: "HackaDev - AI for Impact Winner",

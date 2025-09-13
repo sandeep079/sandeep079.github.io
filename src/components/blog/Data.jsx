@@ -5,8 +5,26 @@ import Image4 from "../../assets/blog4.png";
 import Image5 from "../../assets/blog5.png";
 import Image6 from "../../assets/blog6.png";
 import Image7 from "../../assets/cit.jpg";
+import nabil_design_thinking from "../../assets/nabil_design_thinking.jpeg";
+import iseeitmore from "../../assets/iseeitmore.png";
 
 export const Data = [
+  {
+    id: 9,
+    image: nabil_design_thinking,
+    title: "From Idea to Impact",
+    link: "https://yunikabajracharya.medium.com/from-idea-to-impact-bd2217574777",
+    description:
+      "Notes & reflections from 3-Day Design Thinking and Systems Thinking sessions at Nabil School of Social Entrepreneurship Fellowship (June 1–3, 2025)",
+  },
+  {
+    id: 8,
+    image: iseeitmore,
+    title: "I see it more.",
+    link: "https://yunikabajracharya.medium.com/i-see-it-more-8d9ee3114f08",
+    description:
+      "I see the beautiful bride, radiant and loved. I see the joy, the promises, the new beginnings. Soon, I see something more...",
+  },
   {
     id: 7,
     image: Image7,
@@ -25,7 +43,7 @@ export const Data = [
       "As we began our conversation with Mr. Khanal, it was immediately clear that his journey to the forefront of...",
   },
   {
-    id: 1,
+    id: 5,
     image: Image1,
     title: "Code Like Her Fellowship",
     link: "https://medium.com/code-rush-blog/code-like-her-fellowship-ii-weekly-6-32ee89b54cc1",
@@ -41,7 +59,7 @@ export const Data = [
       "“Oh, God! How has this teeny-tiny invisible thing managed to confine humans, the mightiest of all...",
   },
   {
-    id: 2,
+    id: 3,
     image: Image2,
     title: "The Metamorphosis",
     link: "https://yunikabajracharya.medium.com/the-metamorphosis-1ea8dddc2f26",
@@ -49,7 +67,7 @@ export const Data = [
       "That morning, Gregor woke up with an unusual freshness. The sun was already beaming through his blinds...",
   },
   {
-    id: 3,
+    id: 2,
     image: Image3,
     title: "Orpheus and Eurydice",
     link: "https://yunikabajracharya.medium.com/orpheus-and-eurydice-8fef38d2db0f",
@@ -57,7 +75,7 @@ export const Data = [
       "It was a bright sunny day, the birds were chirping. The palace was all colorful and the whole kingdom...",
   },
   {
-    id: 5,
+    id: 1,
     image: Image5,
     title: "(Un-)social Media",
     link: "https://medium.com/zerone-magazine/un-social-media-4702a5192076",

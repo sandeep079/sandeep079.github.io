@@ -42,10 +42,16 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="mailto:bajracharya.yunika@gmail.com"
             className="footer__social-link"
-            target="_blank"
+            onClick={(e) => {
+              e.preventDefault();
+              const aboutSection = document.getElementById("about");
+              if (aboutSection) {
+                aboutSection.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
           >
+            {" "}
             <i className="uil uil-envelope"></i>
           </a>
 
@@ -106,11 +112,14 @@ const Footer = () => {
           </a>
         </div>
 
-        <span className="footer__copy">&#169;2025 <AnimatedLetters
+        <span className="footer__copy">
+          &#169;2025{" "}
+          <AnimatedLetters
             letterClass={letterClass}
             strArray={[" ", "यु", "नि", "का", " ", "ब", "ज्रा", "चा", "र्य"]}
             idx={15}
-          /></span>
+          />
+        </span>
       </div>
     </footer>
   );

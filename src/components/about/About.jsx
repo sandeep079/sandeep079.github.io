@@ -92,10 +92,13 @@ const About = () => {
         <div className="about__data">
           {/* <p className="about__description" id="canvas-container"> */}
           <p className="about__description">
-            I'm currently working as a Machine Learning Engineer at REG-1, focusing on Natural Language Processing and Generative AI. I recently graduated in Computer Engineering from Pulchowk Campus, Tribhuvan University. I enjoy building ML solutions and exploring the cool ideas behind them! Alongside my technical projects, I also love organizing and participating in community events.
+            I'm currently working as a Machine Learning Engineer at REG-1, focusing on Natural Language Processing and Generative AI. I graduated in Computer Engineering from Pulchowk Campus, Tribhuvan University. I enjoy building ML solutions and exploring the cool ideas behind them! I also love organizing and participating in community events.
             <br />
             <br />
-            When I'm not glued to a screen (rare, but it happens), you'll probably find me reading a book, painting something, or just going on long walks.
+            When I'm not glued to a screen (rare, but it happens), you'll probably find me reading a book, painting something, or going on long walks.
+            <br />
+            <br />
+            <i>Email: [lastname][firstname] at google's email service</i>
           </p>
           {/* <a download="" href={resumeYunika} className="button button--flex button-about">
               Download Resume

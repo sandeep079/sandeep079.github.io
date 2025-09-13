@@ -41,7 +41,7 @@ const Data = () => {
         <img src={HandWave} className="handwave" />
       </h1>
 
-      <p className="home__subtitle">Machine Learning Engineer</p>
+      <p className="home__subtitle">machine learning engineer</p>
 
       {/* <p className="home__description">
             Computer Engineering Undergrad
