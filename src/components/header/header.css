@@ -74,6 +74,7 @@
 
 .nav__link:hover::after {
     transform: scaleX(1);
+    height: 1px;
 }
 
 /*=============== BREAKPOINTS ===============*/

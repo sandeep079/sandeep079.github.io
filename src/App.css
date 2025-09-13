@@ -12,7 +12,9 @@
   --sat: 0%;
 
   /* Backgrounds */
-  --body-color: #f8fefd; /* Creamy off-white */
+  /* --body-color: #f8fefd; */
+  --body-color: #f7f7f7; /* Creamy off-white */
+  /* Grainy background using SVG data URI */
   --container-color: #ffffff;
 
   /* Text */
@@ -22,11 +24,21 @@
   --text-color: hsl(var(--hue), var(--sat), 35%);
 
   /* Special / Accent Colors */
-  --special-color: #28be9d; /* Teal base */
+  /* Teal base */
+  /* --special-color: #28be9d; 
+  --special-color: #129d7f; 
+
   --special-color-lighter: #6dd6c1;
   --special-color-darker: #078d70;
+  --light-special-color: #e4f9f4; */
 
-  --light-special-color: #e4f9f4;
+
+  --special-color: #795547; 
+  --special-color-lighter: rgb(184, 177, 174);
+  --special-color-darker: #D7CCC8;
+  --light-special-color: #f0e9e6;
+  --link-color: #9a2c00;
+  --link-color-hover: #9f5b40;
   /*========== Font and typography ==========*/
   /* --title-font: 'Sansita Swashed', cursive; */
   --body-font: 'Nunito', sans-serif;
@@ -65,11 +77,11 @@
 }
 
 a {
-  color: var(--special-color-darker);
+  color: var(--link-color);
 }
 
 a:hover {
-  color: var(--special-color);
+  color: var(--link-color-hover);
 }
 
 /* Responsive typography */

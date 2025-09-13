@@ -53,7 +53,8 @@
 }
 
 .journey__icon {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
   margin-right: var(--mb-0-25);
 }
 
@@ -66,7 +67,9 @@
 }
 
 .journey__button:hover::after {
-  transform: scaleX(1);
+  margin-top: 1px;
+  transform: scaleX(0.5);
+  height: 0.1px;
 }
 
 /* Journey sections */
@@ -89,10 +92,10 @@
 .journey__data {
   background-color: var(--container-color);
   display: flex;
-  padding: 15px;
+  padding: 18px;
   margin: 10px;
-  box-shadow: 1px 1px 5px 1px rgb(233, 231, 240);
-  border-radius: 15px;
+  box-shadow: 0 2px 12px rgba(60, 60, 90, 0.08), 0 1px 2px rgba(60, 60, 90, 0.04);
+  border-radius: 5px;
   align-items: center;
   position: relative;
 }
@@ -100,10 +103,11 @@
 .journey__img {
   width: 35px;
   height: 35px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: --var(--container-color);
-  opacity: 0.9;
-  box-shadow: 1px 1px 5px 1px rgb(233, 231, 240);
+  filter: grayscale(30%);
+  opacity: 0.85;
+  box-shadow: 0 2px 12px rgba(60, 60, 90, 0.08), 0 1px 2px rgba(60, 60, 90, 0.04);
   padding: 2px;
 }
 
@@ -138,9 +142,9 @@
   padding: 15px 25px 15px 40px;
   margin: 10px;
   margin-top: -16px;
-  box-shadow: 1px 1px 6px 1px rgb(233, 231, 240);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  box-shadow: 0 2px 12px rgba(60, 60, 90, 0.08), 0 1px 2px rgba(60, 60, 90, 0.04);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   display: none;
   align-items: center;
   line-height: 1.43rem;
