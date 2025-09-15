@@ -30,7 +30,7 @@ export const experienceData = [
     image: reg1,
     title: "Machine Learning Engineer",
     company: "REG-1",
-    date: "Jun 2024 - Present",
+    date: "Jun 2024 - Sep 2025",
     description: (
       <ul className="ul">
         <li>
@@ -449,7 +449,7 @@ export const scholarshipData = [
   {
     image: unlockherfuture,
     title: "Unlock Her Future Prize 2025 - Semi Finalist",
-    company: "The Bicester Collection, Said Business School, University of Oxford",
+    company: "The Bicester Collection, University of Oxford, Saïd Business School",
     date: "",
     description: "Was selected as one of the 25 semifinalists from South Asia.",
   },
