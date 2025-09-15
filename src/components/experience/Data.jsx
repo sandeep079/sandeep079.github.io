@@ -49,7 +49,8 @@ export const experienceData = [
     image: nabil_sse,
     title: "Nabil School of Social Enterprenuership Fellow",
     company: "Nabil Bank, TU School of Management",
-    date: "May 2025 - Present",
+    // date: "May 2025 - Present",
+    date: "",
     description: (
       <ul className="ul">
           Selected as one of the 20 fellows from across Nepal. Participating in sessions on <a href="https://medium.com/p/bd2217574777" target="__blank"> design thinking</a>, leadership, human resource management, branding, finance, budgeting, and social impact.
