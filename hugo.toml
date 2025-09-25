@@ -1,0 +1,7 @@
+baseURL = 'https://www.sandeepkumaryadav.com.np/'
+languageCode = 'en-us'
+title = 'Sandeep Kumar Yadav - Engineering Portfolio'
+
+[params]
+description = 'Personal website of Sandeep Kumar Yadav - Electrical Engineering Student'
+email = 'sandeep@example.com'

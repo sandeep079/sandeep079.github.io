@@ -1,0 +1,8 @@
+baseURL = "https://www.sandeepkumaryadav.com.np/"
+languageCode = "en-us"
+title = "Sandeep Kumar Yadav"
+theme = ""
+
+[params]
+description = "Personal website of Sandeep Kumar Yadav"
+email = "079bel078.sandeep@pcampus.edu.np"
