@@ -1,7 +1,14 @@
-baseURL = 'https://www.sandeepkumaryadav.com.np/'
-languageCode = 'en-us'
-title = 'Sandeep Kumar Yadav - Engineering Portfolio'
+baseURL                 = "https://sandeep-yadav.com.np"
+languageCode            = "en"
+title                   = "Sandeep Kumar Yadav"
+enableRobotsTXT         = true
+disableKinds            = ["taxonomy", "term"]
 
 [params]
-description = 'Personal website of Sandeep Kumar Yadav - Electrical Engineering Student'
-email = 'sandeep@example.com'
+author      = "Sandeep Kumar Yadav"
+email       = "079bel078.sandeep@pcampus.edu.np"
+github      = "https://github.com/sandeep-yadav-71b955274"
+linkedin    = "https://linkedin.com/in/sandeep-yadav-71b955274"
+phone       = "+977-980-844-0772"
+location    = "Pulchowk, Lalitpur, Nepal"
+accent      = "#60a5fa"   # sky-400

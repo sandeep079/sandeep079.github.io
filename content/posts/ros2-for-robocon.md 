@@ -1,0 +1,9 @@
+---
+title: "ROS2 + EKF for Robocon 2025"
+date: 2024-07-20
+tags: ["ros2", "ekf", "robocon"]
+excerpt: "How we fused IMU and wheel odometry inside ROS2 to shrink localization error below 3 cm."
+---
+
+We built a high-fidelity Gazebo simulation of the **Robot Basketball** field…  
+<!--more-->

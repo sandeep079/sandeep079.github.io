@@ -1,0 +1,8 @@
+<meta charset="utf-8">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="{{ .Params.excerpt | default .Site.Params.author }}">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<script src="/js/theme.js" defer></script>
+{{ if or .IsHome (eq .Type "posts") }}<script src="/js/search.js" defer></script>{{ end }}

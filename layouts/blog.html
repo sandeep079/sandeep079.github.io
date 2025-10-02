@@ -1,0 +1,43 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <h1>Blog</h1>
+    <input id="searchInput" type="search" placeholder="Search posts…" autocomplete="off">
+    <div id="results"></div>
+    <ul id="postList" class="post-list">
+      {{ range .Site.RegularPages }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+          <p>{{ .Params.excerpt }}</p>
+          <div class="tags">{{ range .Params.tags }}<span>#{{ . }}</span>{{ end }}</div>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+<script>
+fetch('/posts.json')
+  .then(r => r.json())
+  .then(data => {
+    const input = document.getElementById('searchInput');
+    const results = document.getElementById('results');
+    const list = document.getElementById('postList');
+    input.addEventListener('input', e => {
+      const q = e.target.value.toLowerCase();
+      if (!q) { results.innerHTML = ''; list.style.display = ''; return; }
+      const filtered = data.filter(p =>
+        p.title.toLowerCase().includes(q) ||
+        p.excerpt.toLowerCase().includes(q) ||
+        p.tags.some(t => t.toLowerCase().includes(q))
+      );
+      list.style.display = 'none';
+      results.innerHTML = filtered.length
+        ? '<ul>' + filtered.map(p =>
+            `<li><a href="${p.url}">${p.title}</a><p>${p.excerpt}</p></li>`).join('')
+        + '</ul>'
+        : '<p>No matches</p>';
+    });
+  });
+</script>
+{{ end }}

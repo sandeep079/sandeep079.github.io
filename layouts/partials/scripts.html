@@ -1,0 +1,19 @@
+<script>
+const body = document.documentElement;
+const toggle = document.getElementById('themeToggle');
+const icon = toggle.querySelector('.icon');
+
+function setIcon(theme){ icon.textContent = theme === 'dark' ? '☀️' : '🌙'; }
+
+const stored = localStorage.getItem('theme') ||
+               (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+body.setAttribute('data-theme', stored); setIcon(stored);
+
+toggle.addEventListener('click', () => {
+  const current = body.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  body.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  setIcon(next);
+});
+</script>
