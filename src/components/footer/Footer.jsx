@@ -17,7 +17,7 @@ const Footer = () => {
         {/* <h1 className="footer__title">
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={["यु", "नि", "का", " ", "ब", "ज्रा", "चा", "र्य"]}
+            strArray={["स", "न्", "दी","प", " ", "या", "द", "व"]}
             idx={15}
           />
         </h1> */}
@@ -56,7 +56,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/yunikabajracharya/"
+            href="https://www.linkedin.com/in/sandeep-yadav-71b955274/"
             className="footer__social-link"
             target="_blank"
           >
@@ -64,7 +64,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://github.com/Yunika-Bajracharya"
+            href="https://github.com/sandeep079"
             className="footer__social-link"
             target="_blank"
           >
@@ -72,7 +72,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://yunikabajracharya.medium.com/"
+            href="https://medium.com/@079bel078.sandeep"
             className="footer__social-link"
             target="_blank"
           >
@@ -80,7 +80,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/yunikabajracharya/"
+            href="https://www.instagram.com/_sanyadav145/"
             className="footer__social-link"
             target="_blank"
           >
@@ -88,7 +88,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.facebook.com/yunikabajracharya"
+            href="https://www.facebook.com/sandeep.yadav.424883/"
             className="footer__social-link"
             target="_blank"
           >
@@ -96,7 +96,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://twitter.com/YunikaB_"
+            href="https://x.com/SandeepK079"
             className="footer__social-link"
             target="_blank"
           >
@@ -104,7 +104,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.youtube.com/channel/UCaz96_0tQhDsb-3JenVFu7g"
+            href="https://www.youtube.com/@sandeep7703"
             className="footer__social-link"
             target="_blank"
           >
@@ -116,7 +116,7 @@ const Footer = () => {
           &#169;2025{" "}
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={[" ", "यु", "नि", "का", " ", "ब", "ज्रा", "चा", "र्य"]}
+            strArray={["सं", "दी","प", " ", "या", "द", "व"]}
             idx={15}
           />
         </span>

@@ -1,9 +1,9 @@
-import hhh from "../../assets/project1.png";
+import api from "../../assets/api.png";
 import chess from "../../assets/project2.png";
 import dhungedhara from "../../assets/project3.png";
 import clhp from "../../assets/clhp.png";
-import sathi from "../../assets/sathi.png";
-import maitrika from "../../assets/maitrika.png";
+import liquid from "../../assets/liquid.png";
+import dash from "../../assets/dash.png";
 import sahayatri from "../../assets/sahayatri.png";
 import newsly from "../../assets/newsly.png";
 import falldetection from "../../assets/falldetection-project.png";
@@ -11,177 +11,160 @@ import majorproject from "../../assets/majorproject.png";
 import niti from "../../assets/niti.png";
 
 export const Data = [
+  //{
+  //  image: majorproject,
+  //  title: "Extractive Nepali Question Answering System",
+  //  category: "",
+  //  link: "https://github.com/Yunika-Bajracharya/Extractive-Nepali-QA",
+  //  demo: "",
+  //  paper: "https://doi.org/10.3126/kjse.v9i1.78368",
+  //  description:
+  //    "Developed web app and browser extension for Extractive Nepali Question Answering, finetuning muril-base-cased model using SQuAD dataset. We employed different translation methods to create dataset of Indo Aryan languages, annotated 500 Nepali QA pairs, evaluated on XQuAD dataset and obtained an exact match of 60.5 and F1 Score of 76.89.",
+  //  stack: ["Pytorch", "React", "TypeScript", "FastAPI"],
+  //},
+  //{
+  //  image: niti,
+  //  title: "Niti - Legal Chatbot",
+  //  category: "",
+  //  link: "https://github.com/Yunika-Bajracharya/Niti-Legal-Semantic-Search",
+  //  demo: "https://youtu.be/hqYp7NOrMAI?feature=shared",
+  //  description: (
+  //    <p>
+  //      Lawyers, law, CA students spend a lot of time searching multiple legal
+  //      documents every day to find a specific answer. Our aim is to help them
+  //      search through legal information quickly so they have more time for
+  //      legal analysis, strategy development, and decision making. This will
+  //      also be helpful for general public to get easier access to legal
+  //      information. <br />
+  //      <br />
+  //      One can ask legal queries, our system will search for your answers
+  //      through the legal documents, extract the answer as it is, and reply back
+  //      to the user, also providing the link to the document where the law
+  //      resides.
+  //    </p>
+  //  ),
+//
+  //  stack: ["Pytorch", "ReactJS", "TypeScript", "FastAPI", "Redis"],
+  //},
+  //{
+  //  image: falldetection,
+  //  title: "Fall Detection Device For Elderly",
+  //  category: "",
+  //  link: "https://github.com/suban244/FallDetection",
+  //  demo: "",
+  //  description:
+  //    "A real-time fall detection wearable for elderly that alerts emergency contacts if a fall is detected or help is needed. We use an IMU sensor to sense the motion, LSTM model to classify fall and GSM module to send emergency message to provided contacts.",
+  //  stack: [
+  //    "MPU 6050",
+  //    "Raspberry Pi Pico",
+  //    "Sim 900A",
+  //    "Micropython",
+  //    "Tensorflow",
+  //  ],
+  //},
+  //{
+  //  image: newsly,
+  //  title: "Newsly",
+  //  category: "",
+  //  link: "https://github.com/Yunika-Bajracharya/Newsly_frontend",
+  //  demo: "",
+  //  description:
+  //    "Newsly provides summarized news stories and the day's top news that can be read or listened in either English or Nepali. It also has an offline mode and offers a daily newsletter tailored to the user's preferences through email and real-time news update in Discord and Telegram.",
+  //  stack: [
+  //    "Flutter",
+  //    "Django",
+  //    "IBM Watson",
+  //    "OpenAI",
+  //    "Google Text-to-Speech",
+  //  ],
+  //},
+  //{
+  //  image: sahayatri,
+  //  title: "SahaYatri",
+  //  category: "",
+  //  link: "https://github.com/YAARS-2022",
+  //  demo: "https://www.youtube.com/watch?v=Xf5o13Zutak",
+  //  description:
+  //    "Real-time school bus tracking system using a low-powered GPS tracking device, with a web app for schools to monitor their school buses, and mobile app for parents to know their child’s location.",
+  //  stack: [
+  //    "React",
+  //    "Flutter",
+  //    "Firebase",
+  //    "Open Street Map",
+  //    "Lora",
+  //    "Arduino, NodeMCU",
+  //  ],
+  //},
   {
-    image: majorproject,
-    title: "Extractive Nepali Question Answering System",
+    image: dash,
+    title: "Robocon Dashboard",
     category: "",
-    link: "https://github.com/Yunika-Bajracharya/Extractive-Nepali-QA",
-    demo: "",
-    paper: "https://doi.org/10.3126/kjse.v9i1.78368",
-    description:
-      "Developed web app and browser extension for Extractive Nepali Question Answering, finetuning muril-base-cased model using SQuAD dataset. We employed different translation methods to create dataset of Indo Aryan languages, annotated 500 Nepali QA pairs, evaluated on XQuAD dataset and obtained an exact match of 60.5 and F1 Score of 76.89.",
-    stack: ["Pytorch", "React", "TypeScript", "FastAPI"],
-  },
-  {
-    image: niti,
-    title: "Niti - Legal Chatbot",
-    category: "",
-    link: "https://github.com/Yunika-Bajracharya/Niti-Legal-Semantic-Search",
-    demo: "https://youtu.be/hqYp7NOrMAI?feature=shared",
-    description: (
-      <p>
-        Lawyers, law, CA students spend a lot of time searching multiple legal
-        documents every day to find a specific answer. Our aim is to help them
-        search through legal information quickly so they have more time for
-        legal analysis, strategy development, and decision making. This will
-        also be helpful for general public to get easier access to legal
-        information. <br />
-        <br />
-        One can ask legal queries, our system will search for your answers
-        through the legal documents, extract the answer as it is, and reply back
-        to the user, also providing the link to the document where the law
-        resides.
-      </p>
-    ),
-
-    stack: ["Pytorch", "ReactJS", "TypeScript", "FastAPI", "Redis"],
-  },
-  {
-    image: falldetection,
-    title: "Fall Detection Device For Elderly",
-    category: "",
-    link: "https://github.com/suban244/FallDetection",
-    demo: "",
-    description:
-      "A real-time fall detection wearable for elderly that alerts emergency contacts if a fall is detected or help is needed. We use an IMU sensor to sense the motion, LSTM model to classify fall and GSM module to send emergency message to provided contacts.",
-    stack: [
-      "MPU 6050",
-      "Raspberry Pi Pico",
-      "Sim 900A",
-      "Micropython",
-      "Tensorflow",
-    ],
-  },
-  {
-    image: newsly,
-    title: "Newsly",
-    category: "",
-    link: "https://github.com/Yunika-Bajracharya/Newsly_frontend",
-    demo: "",
-    description:
-      "Newsly provides summarized news stories and the day's top news that can be read or listened in either English or Nepali. It also has an offline mode and offers a daily newsletter tailored to the user's preferences through email and real-time news update in Discord and Telegram.",
-    stack: [
-      "Flutter",
-      "Django",
-      "IBM Watson",
-      "OpenAI",
-      "Google Text-to-Speech",
-    ],
-  },
-  {
-    image: sahayatri,
-    title: "SahaYatri",
-    category: "",
-    link: "https://github.com/YAARS-2022",
-    demo: "https://www.youtube.com/watch?v=Xf5o13Zutak",
-    description:
-      "Real-time school bus tracking system using a low-powered GPS tracking device, with a web app for schools to monitor their school buses, and mobile app for parents to know their child’s location.",
-    stack: [
-      "React",
-      "Flutter",
-      "Firebase",
-      "Open Street Map",
-      "Lora",
-      "Arduino, NodeMCU",
-    ],
-  },
-  {
-    image: maitrika,
-    title: "Maitrika",
-    category: "",
-    link: "https://github.com/dhakalmahima188/Maitrika",
-    demo: "",
-    description:
-      " Application that connects health workers with doctors, tracks events, and generates reports based on data taken by health workers to aid in checkups.",
-    stack: ["MERN stack", "WebRTC", "i18next", "chart.js"],
-  },
-  {
-    image: hhh,
-    title: "Hungry Hackee Hunts",
-    category: "",
-    link: "https://github.com/Yunika-Bajracharya/Hungry-Hackee-Hunts",
-    demo: "https://www.yunikabajracharya.com.np/Hungry-Hackee-Hunts/",
-    description:
-      "A game in which you help Hackee, the squirrel, in her walnut heist while visualizing different sorting algorithms and a maze generator created using recursive depth first search. There are two levels.",
-    stack: ["JavaScript", "HTML", "CSS", "Canva"],
-  },
-  {
-    image: chess,
-    title: "Chess",
-    category: "",
-    link: "https://github.com/Yunika-Bajracharya/Chess",
+    link: "https://github.com/sandeep079/robocon_dashboard/tree/master",
     demo: "",
     description:
-      "A chess game with features such as timer, single/multi-player mode, scoreboard, and resign options, created using C++ and SDL2 for GUI.",
-    stack: ["C++", "SDL2", "CMAKE"],
+      " A responsive canvas based dashboard for visualizing robot position, orientation, and uncertainity on a 15m x 8m field.Supports real-time ROS odometry data with kalman filter covarience visualization.",
+    stack: ["HTML", "CSS", "React.js", "ROS"],
   },
   {
-    image: clhp,
-    title: "Code Like Her Fellowship Projects",
+    image: api,
+    title: "Kalman filter API",
     category: "",
-    link: "https://github.com/Coderushnepal/YunikaBajracharya",
-    demo: "",
+    link: "https://github.com/sandeep079/kalman-filter-api",
+    demo: "https://drive.google.com/file/d/1B7kzs3CkSalY6WUoi17d0xbXvIP9UK9t/view",
     description:
-      "Here is the list of projects and assignments I did during the fellowship.",
-    stack: ["HTML", "CSS", "JavaScript", "Express"],
+      "This project implements a FastAPI-based Sensor Fusion Microservice that fuses data from an IMU and wheel odometry using a Kalman Filter. It is designed to support real-time pose estimation for robotics applications. The system accepts structured sensor inputs or CSV files and returns fused pose estimates (x, y, θ). It includes support for REST endpoints, CSV-based batch filtering, and Jupyter visualization.",
+    stack: ["Python + FastAPI", "Pytest", "Kalman Filter", "MkDocs + Swagger UI"],
   },
+  //{
+  //  image: chess,
+  //  title: "Chess",
+  //  category: "",
+  //  link: "https://github.com/Yunika-Bajracharya/Chess",
+  //  demo: "",
+  //  description:
+  //    "A chess game with features such as timer, single/multi-player mode, scoreboard, and resign options, created using C++ and SDL2 for GUI.",
+  //  stack: ["C++", "SDL2", "CMAKE"],
+  //},
+  //{
+  //  image: clhp,
+  //  title: "Code Like Her Fellowship Projects",
+  //  category: "",
+  //  link: "https://github.com/Coderushnepal/YunikaBajracharya",
+  //  demo: "",
+  //  description:
+  //    "Here is the list of projects and assignments I did during the fellowship.",
+  //  stack: ["HTML", "CSS", "JavaScript", "Express"],
+  //},
+ // {
+ //   image: dhungedhara,
+ //   title: "Dhungedhara",
+ //   category: "",
+ //   link: "https://github.com/Yunika-Bajracharya/Dhungedhara",
+ //   demo: "",
+ //   description:
+ //     "This is a simulation of a traditional stone drinking water fountain called Lho Hiti. The 3D model also includes the surrounding, flowers, stairs and water jar called 'gagri' in Nepali with the day time as well as night time views.",
+ //   stack: ["C++", "OpenGL", "GLSL", "Blender"],
+ // },
   {
-    image: dhungedhara,
-    title: "Dhungedhara",
+    image: liquid,
+    title: "NASA Space Apps Challenge 2023 Project ",
     category: "",
-    link: "https://github.com/Yunika-Bajracharya/Dhungedhara",
+    link: "https://github.com/sandeep079/Nasa_space_hack",
     demo: "",
-    description:
-      "This is a simulation of a traditional stone drinking water fountain called Lho Hiti. The 3D model also includes the surrounding, flowers, stairs and water jar called 'gagri' in Nepali with the day time as well as night time views.",
-    stack: ["C++", "OpenGL", "GLSL", "Blender"],
-  },
-  {
-    image: sathi,
-    title: "Sathi",
-    category: "",
-    link: "",
-    demo: "https://sathi-app.github.io/",
     description: (
       <ul>
         <li>
-          Sathi is a friendly app for Type I Diabetic Patients to make their
-          life easier. It sends notification to the patient regarding timely
-          blood sugar checkup and medication, to the trusted person if the
-          patient misses the notification, and to the doctor if the patient's
-          blood sugar level goes extremely high.
+         Welcome to Liquid Logic! In this project, we have collected 
+         data from various sources and have made them visually appealing 
+         for students. This project mainly focuses students who are still
+          in school (K12).We help students understand freshwater availability,
+           importance, and scarcity. Find solutions for global, local and 
+           personal levels.  
         </li>
         <br />
-        <li>
-          {" "}
-          Project Details:
-          <a
-            href="https://www.youtube.com/watch?v=mxnGCWSWLTY&list=PLfEevmzbs5mMKyBsHwh8c73v6xC60i4eX&index=4"
-            target="_blank"
-          >
-            {" "}
-            Intro Video{" "}
-          </a>
-          &#x2B29;
-          <a
-            href="https://www.youtube.com/watch?v=ij6_imqs3Nc&list=PLfEevmzbs5mMKyBsHwh8c73v6xC60i4eX&index=4"
-            target="_blank"
-          >
-            {" "}
-            Demo Video
-          </a>
-        </li>
+  
       </ul>
     ),
-    stack: ["Seeds For the Future 2021 Project"],
+    stack: ["HTML", "CSS", "JavaScript"],
   },
 ];

@@ -2,8 +2,8 @@ import { useRef, useState, useEffect } from "react";
 import "./home.css";
 import Social from "./Social";
 import Data from "./Data";
-import profile1 from "../../assets/profile.jpg";
-import profile2 from "../../assets/profile2.jpeg";
+import profile1 from "../../assets/profile.png";
+import profile2 from "../../assets/profile2.png";
 
 const Home = () => {
   const imgRef = useRef(null);

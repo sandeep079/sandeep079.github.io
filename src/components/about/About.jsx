@@ -92,11 +92,9 @@ const About = () => {
         <div className="about__data">
           {/* <p className="about__description" id="canvas-container"> */}
           <p className="about__description">
-            I'm currently working as a Machine Learning Engineer at REG-1, focusing on Natural Language Processing and Generative AI. I graduated in Computer Engineering from Pulchowk Campus, Tribhuvan University. I enjoy building ML solutions and exploring the cool ideas behind them! I also love organizing and participating in community events.
+            I’m a third-year Electrical Engineering student at Pulchowk Campus, Tribhuvan University.I enjoy builiding robots, exploring the cool idea behind them! I also love organizing and participating tech events and workshops.           
             <br />
-            <br />
-            When I'm not glued to a screen (rare, but it happens), you'll probably find me reading a book, painting something, or going on long walks.
-            <br />
+              Screen-off ritual: headphones in, sneakers laced, trading city glow for ridge-top starlight and startup ideas scribbled on trail maps.            <br />
             <br />
             <i>Email: [lastname][firstname] at google's email service</i>
           </p>

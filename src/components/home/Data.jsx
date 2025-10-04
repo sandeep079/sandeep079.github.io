@@ -8,13 +8,15 @@ const Data = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
   const nameArray = [
     " ",
-    "Y",
-    "u",
-    "n",
-    "i",
-    "k",
+    "S",
     "a",
+    "n",
+    "d",
+    "e",
+    "e",
+    " p",
     " "
+
   ];
 
   useEffect(() => {
@@ -41,13 +43,13 @@ const Data = () => {
         <img src={HandWave} className="handwave" />
       </h1>
 
-      <p className="home__subtitle">machine learning engineer</p>
+      <p className="home__subtitle">Robotics & AI tinkerer</p>
 
       {/* <p className="home__description">
             Computer Engineering Undergrad
         </p> */}
 
-      <a href="https://www.linkedin.com/in/yunikabajracharya/" target="_blank" className="button button--flex home__button">
+      <a href="https://www.linkedin.com/in/sandeep-yadav-71b955274/" target="_blank" className="button button--flex home__button">
         Say Hello!
         <svg
           class="button__icon"

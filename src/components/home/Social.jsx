@@ -18,7 +18,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/yunikabajracharya/"
+        href="https://www.linkedin.com/in/sandeep-yadav-71b955274/"
         className="home__social-icon linkedin"
         target="_blank"
       >
@@ -41,7 +41,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://github.com/Yunika-Bajracharya"
+        href="https://github.com/sandeep079"
         className="home__social-icon github"
         target="_blank"
       >
@@ -69,7 +69,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://yunikabajracharya.medium.com/"
+        href="https://medium.com/@079bel078.sandeep"
         className="home__social-icon noSvg"
         target="_blank"
       >
@@ -77,7 +77,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://www.instagram.com/yunikabajracharya/"
+        href="https://www.instagram.com/_sanyadav145/"
         className="home__social-icon instagram"
         target="_blank"
       >
@@ -120,7 +120,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://www.facebook.com/yunikabajracharya"
+        href="https://www.facebook.com/sandeep.yadav.424883/"
         className="home__social-icon noSvg"
         target="_blank"
       >
@@ -128,7 +128,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://twitter.com/YunikaB_"
+        href="https://x.com/SandeepK079"
         className="home__social-icon twitter"
         target="_blank"
       >
