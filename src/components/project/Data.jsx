@@ -4,7 +4,7 @@ import dhungedhara from "../../assets/project3.png";
 import clhp from "../../assets/clhp.png";
 import liquid from "../../assets/liquid.png";
 import dash from "../../assets/dash.png";
-import sahayatri from "../../assets/sahayatri.png";
+import field from "../../assets/field.png";
 import newsly from "../../assets/newsly.png";
 import falldetection from "../../assets/falldetection-project.png";
 import majorproject from "../../assets/majorproject.png";
@@ -78,23 +78,21 @@ export const Data = [
   //    "Google Text-to-Speech",
   //  ],
   //},
-  //{
-  //  image: sahayatri,
-  //  title: "SahaYatri",
-  //  category: "",
-  //  link: "https://github.com/YAARS-2022",
-  //  demo: "https://www.youtube.com/watch?v=Xf5o13Zutak",
-  //  description:
-  //    "Real-time school bus tracking system using a low-powered GPS tracking device, with a web app for schools to monitor their school buses, and mobile app for parents to know their child’s location.",
-  //  stack: [
-  //    "React",
-  //    "Flutter",
-  //    "Firebase",
-  //    "Open Street Map",
-  //    "Lora",
-  //    "Arduino, NodeMCU",
-  //  ],
-  //},
+  {
+    image: field,
+    title: "Robocon Gamefield",
+    category: "",
+    link: "https://github.com/sandeep079/gamefield/tree/master",
+    demo: "",
+    description:
+      "ROS 2 + Gazebo simulation of the official ABU Robocon 2025 basketball field",
+    stack: [
+      "Gazebo",
+      "ROS 2",
+      "URDF / xacro",
+      "Python ",
+    ],
+  },
   {
     image: dash,
     title: "Robocon Dashboard",
