@@ -5,8 +5,8 @@ import clhp from "../../assets/clhp.png";
 import liquid from "../../assets/liquid.png";
 import dash from "../../assets/dash.png";
 import field from "../../assets/field.png";
-import newsly from "../../assets/newsly.png";
-import falldetection from "../../assets/falldetection-project.png";
+import ekf from "../../assets/ekf.png";
+import drl from "../../assets/drl.png";
 import majorproject from "../../assets/majorproject.png";
 import niti from "../../assets/niti.png";
 
@@ -26,7 +26,7 @@ export const Data = [
   //  image: niti,
   //  title: "Niti - Legal Chatbot",
   //  category: "",
-  //  link: "https://github.com/Yunika-Bajracharya/Niti-Legal-Semantic-Search",
+  //  link: "https://github.com/Robotics-Club-Pulchowk/EKF_Test_25",
   //  demo: "https://youtu.be/hqYp7NOrMAI?feature=shared",
   //  description: (
   //    <p>
@@ -46,38 +46,43 @@ export const Data = [
 //
   //  stack: ["Pytorch", "ReactJS", "TypeScript", "FastAPI", "Redis"],
   //},
-  //{
-  //  image: falldetection,
-  //  title: "Fall Detection Device For Elderly",
-  //  category: "",
-  //  link: "https://github.com/suban244/FallDetection",
-  //  demo: "",
-  //  description:
-  //    "A real-time fall detection wearable for elderly that alerts emergency contacts if a fall is detected or help is needed. We use an IMU sensor to sense the motion, LSTM model to classify fall and GSM module to send emergency message to provided contacts.",
-  //  stack: [
-  //    "MPU 6050",
-  //    "Raspberry Pi Pico",
-  //    "Sim 900A",
-  //    "Micropython",
-  //    "Tensorflow",
-  //  ],
-  //},
-  //{
-  //  image: newsly,
-  //  title: "Newsly",
-  //  category: "",
-  //  link: "https://github.com/Yunika-Bajracharya/Newsly_frontend",
-  //  demo: "",
-  //  description:
-  //    "Newsly provides summarized news stories and the day's top news that can be read or listened in either English or Nepali. It also has an offline mode and offers a daily newsletter tailored to the user's preferences through email and real-time news update in Discord and Telegram.",
-  //  stack: [
-  //    "Flutter",
-  //    "Django",
-  //    "IBM Watson",
-  //    "OpenAI",
-  //    "Google Text-to-Speech",
-  //  ],
-  //},
+  {
+    image: drl,
+    title: " Deep-Reinforcement-Learning Robot Navigation",
+    category: "",
+    link: "https://github.com/fuseai-fellowship/DRL-for-Mobile-Robot-Navigation",
+    demo: "",
+    description:
+      "Autonomous TurtleBot3 navigation trained end-to-end with deep reinforcement learning inside Gazebo.",
+    stack: [
+      "ROS 2 ",
+      "Gazebo",
+      "Python",
+      "Stable-Baselines3",
+      "PyTorch",
+    ],
+  },
+  {
+    image: ekf,
+    title: "Sensor Fusion for Robot Localization",
+    category: "",
+    link: "https://github.com/Robotics-Club-Pulchowk/EKF_Test_25",
+    demo: "",
+    description:
+      "ROS 2-based EKF sensor-fusion node that fuses wheel odometry, IMU and sick sensor distance range data to localize a ground robot within 5 cm RMSE indoors without cameras or GPS.",
+    stack: [
+      "ROS 2",
+      "robot_localization",
+      "EKF",
+      "IMU",
+      "wheel encoders",
+      "Distance sensors",
+       "C++",
+      "Python",
+      "RViz",
+      "MATLAB",
+    ],
+  },
   {
     image: field,
     title: "Robocon Gamefield",
